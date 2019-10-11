@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="proposed-automations.html"/>
-
+<link rel="next" href="faoswsForestryAggregation.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -82,6 +82,18 @@
 <li><a href="forestry-statistical-objects.html#data-tables"><strong>Data tables</strong></a></li>
 <li><a href="forestry-statistical-objects.html#data-sets"><strong>Data sets</strong></a></li>
 </ul></li>
+<li class="chapter" data-level="1" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html"><i class="fa fa-check"></i><b>1</b> <strong>The faoswsForestryAggregation module</strong></a><ul>
+<li class="chapter" data-level="1.1" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#aims"><i class="fa fa-check"></i><b>1.1</b> <strong>Aims</strong></a></li>
+<li class="chapter" data-level="1.2" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#reads-in-the-input-data-set-and-data-tables"><i class="fa fa-check"></i><b>1.2</b> <strong>Reads in the input data set and data tables</strong></a></li>
+<li class="chapter" data-level="1.3" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#gets-regional-aggregation"><i class="fa fa-check"></i><b>1.3</b> <strong>Gets regional aggregation</strong></a></li>
+<li class="chapter" data-level="1.4" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#gets-forestry-commodity-aggregation"><i class="fa fa-check"></i><b>1.4</b> <strong>Gets Forestry commodity aggregation</strong></a></li>
+<li class="chapter" data-level="1.5" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#get-unit-values"><i class="fa fa-check"></i><b>1.5</b> <strong>Get Unit values</strong></a></li>
+<li class="chapter" data-level="1.6" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#get-back-the-original-flags"><i class="fa fa-check"></i><b>1.6</b> <strong>Get back the original flags</strong></a></li>
+<li class="chapter" data-level="1.7" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#convert-faostat-regions-to-sws-regions"><i class="fa fa-check"></i><b>1.7</b> <strong>Convert FAOSTAT regions to SWS regions</strong></a></li>
+<li class="chapter" data-level="1.8" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#binding-national-and-regional-data"><i class="fa fa-check"></i><b>1.8</b> <strong>Binding national and regional data</strong></a></li>
+<li class="chapter" data-level="1.9" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#compare-before-and-after-aggregations"><i class="fa fa-check"></i><b>1.9</b> <strong>Compare before and after aggregations</strong></a></li>
+<li class="chapter" data-level="1.10" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#save-data-in-the-sws-shared-drive-and-in-the-sws-database"><i class="fa fa-check"></i><b>1.10</b> <strong>Save data in the SWS shared drive and in the SWS database</strong></a></li>
+</ul></li>
 </ul>
 
       </nav>
@@ -105,7 +117,7 @@
 <div class="figure"><span id="fig:unnamed-chunk-7"></span>
 <img src="images/statistical_objects.png" alt="SWS statistical domains" width="100%" />
 <p class="caption">
-Figure 6: SWS statistical domains
+Figure 0.6: SWS statistical domains
 </p>
 </div>
 <div id="domain" class="section level2 unnumbered">
@@ -132,7 +144,7 @@ Figure 6: SWS statistical domains
 ## include the output from verbose=TRUE.</code></pre>
 <table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:tab1">Table 1: </span>FORESTRY commodity codes in the measuredItemForestry code list.
+<span id="tab:tab1">Table 0.1: </span>FORESTRY commodity codes in the measuredItemForestry code list.
 </caption>
 <thead>
 <tr>
@@ -2166,7 +2178,7 @@ Chemical Wood Pulp
 <br> 3. <strong>measuredElement</strong>. Code list representing a measurement that can be taken across different items. For example, production, import quantity, import value, export quantity, export value, unit price. <br> 4. <strong>timePointYears</strong>. Code list representing the time unit the data is displayed: year, months, etc. <br> 5. <strong>flagObservationStatus</strong>. Code list representing a standardized label indicating origin and/or nature of a number in the data set, e.g. <blank> (Official figure). Please check the <a href="http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/">OCS statistical standards</a> and the <a href="http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS1_Flags.pdf">flags document</a> to understand the flagObservationStatus rational and obtain the description of flags. <br> 6. <strong>flagMethod</strong>. Code list for internal use (not dissemination) representing a standardized label indicating method utilized to obtain a figure in the data set (FAO questionnaire, external database, estimation, imputation, expert, etc. Please check the <a href="http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/">OCS statistical standards</a> and the <a href="http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS1_Flags.pdf">flags document</a> to understand the flagMethod rational and obtain the description of flags. <br>
 <table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:tab2">Table 2: </span>FAOSTAT-SWS mapping for observations and methods in Forestry.
+<span id="tab:tab2">Table 0.2: </span>FAOSTAT-SWS mapping for observations and methods in Forestry.
 </caption>
 <thead>
 <tr>
@@ -2324,7 +2336,7 @@ p
 <li><strong>forestry_aggregation_tree</strong>. A data table with group commodity and their primary commodities.
 <table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:tab3">Table 3: </span>FORESTRY aggregation tree. A SWS data table establishing the relationship between primary and grouped commodities.
+<span id="tab:tab3">Table 0.3: </span>FORESTRY aggregation tree. A SWS data table establishing the relationship between primary and grouped commodities.
 </caption>
 <thead>
 <tr>
@@ -4912,7 +4924,7 @@ Veneer sheets all
 <li><strong>m49_fs_iso_mapping</strong>. An SWS dataset data table storing the mapping between FAOSTAT and UNSD M49 codes used to carry geographic aggregations. This mapping table was imported from here [] <br>
 <table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:tab4">Table 4: </span>Mapping betweeb FAOSTAT and UNSD M49 geographic codes.
+<span id="tab:tab4">Table 0.4: </span>Mapping betweeb FAOSTAT and UNSD M49 geographic codes.
 </caption>
 <thead>
 <tr>
@@ -45060,32 +45072,32 @@ ZWE
 <h2><strong>Data sets</strong></h2>
 <p>Datasets in the SWS are interchangeably used as module inputs/outputs and are composed by dimensions (aka reference/code lists). Because SWS datasets contain code lists following international standards as dimensions, there is little space for variation of dimension names across SWS datasets for the sake of standardization. The datasets in the Forestry domain are:</p>
 <ol style="list-style-type: decimal">
-<li><strong>forestry_prod_trade</strong>. The working dataset migrated from the current Input System into the SWS. <strong>It is expected to be periodically manually edited by the technical unit (FOA) team. Changes made on this dataset may involve the domain-knowledge replacement of values due to arrival of new data at the end of data cycles and cell-level corrections via domain-knowledge</strong>. Most importantly, after alterations, and if FOA wants so, this data set is used as <strong>INPUT</strong> to the <strong>faoswsForestryAggregation</strong> module. Details on the use of this dataset are in the (Chapter <a href="#faoswsForestryAggregation"><strong>??</strong></a>. <br> <br>
+<li><strong>forestry_prod_trade</strong>. The working dataset migrated from the current Input System into the SWS. <strong>It is expected to be periodically manually edited by the technical unit (FOA) team. Changes made on this dataset may involve the domain-knowledge replacement of values due to arrival of new data at the end of data cycles and cell-level corrections via domain-knowledge</strong>. Most importantly, after alterations, and if FOA wants so, this data set is used as <strong>INPUT</strong> to the <strong>faoswsForestryAggregation</strong> module. Details on the use of this dataset are in the (Chapter <a href="faoswsForestryAggregation.html#faoswsForestryAggregation">1</a>. <br> <br>
 <div class="figure"><span id="fig:unnamed-chunk-8"></span>
 <img src="images/legacy_sws_query.png" alt="Query page of the forestry_prod_trade data set." width="100%" />
 <p class="caption">
-Figure 7: Query page of the forestry_prod_trade data set.
+Figure 0.7: Query page of the forestry_prod_trade data set.
 </p>
 </div>
 <br> <br>
 <div class="figure"><span id="fig:unnamed-chunk-9"></span>
 <img src="images/legacy_sws_query_02.png" alt="Example of the populated forestry_prod_trade data set in the SWS." width="100%" />
 <p class="caption">
-Figure 8: Example of the populated forestry_prod_trade data set in the SWS.
+Figure 0.8: Example of the populated forestry_prod_trade data set in the SWS.
 </p>
 </div></li>
-<li><strong>forestry_prod_trade_agg</strong>. An SWS dataset serving as <strong>OUTPUT</strong> of the <strong>faoswsForestryAggregation</strong>. It receives the geographic and commodity aggregations <strong>AFTER WHATEVER SAVED CHANGE IN THE forestry_prod_trade data set</strong>. Details on the use of this dataset are in the (Chapter <a href="#faoswsForestryAggregation"><strong>??</strong></a>. <br> <br>
+<li><strong>forestry_prod_trade_agg</strong>. An SWS dataset serving as <strong>OUTPUT</strong> of the <strong>faoswsForestryAggregation</strong>. It receives the geographic and commodity aggregations <strong>AFTER WHATEVER SAVED CHANGE IN THE forestry_prod_trade data set</strong>. Details on the use of this dataset are in the (Chapter <a href="faoswsForestryAggregation.html#faoswsForestryAggregation">1</a>. <br> <br>
 <div class="figure"><span id="fig:unnamed-chunk-10"></span>
 <img src="images/agg_query_SWS.png" alt="Query page of the **forestry_prod_trade_agg** data set." width="100%" />
 <p class="caption">
-Figure 9: Query page of the <strong>forestry_prod_trade_agg</strong> data set.
+Figure 0.9: Query page of the <strong>forestry_prod_trade_agg</strong> data set.
 </p>
 </div>
 <br> <br>
 <div class="figure"><span id="fig:unnamed-chunk-11"></span>
 <img src="images/agg_data_SWS.png" alt="Example of the populated **forestry_prod_trade_agg** data set in the SWS." width="100%" />
 <p class="caption">
-Figure 10: Example of the populated <strong>forestry_prod_trade_agg</strong> data set in the SWS.
+Figure 0.10: Example of the populated <strong>forestry_prod_trade_agg</strong> data set in the SWS.
 </p>
 </div></li>
 </ol>
@@ -45097,8 +45109,8 @@ Figure 10: Example of the populated <strong>forestry_prod_trade_agg</strong> dat
           </div>
         </div>
       </div>
-<a href="proposed-automations.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="proposed-automations.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="faoswsForestryAggregation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
