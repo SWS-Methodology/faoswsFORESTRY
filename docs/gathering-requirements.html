@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Current FORESTRY methodology | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS</title>
+  <title>Gathering requirements | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS</title>
   <meta name="description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)" />
   <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Current FORESTRY methodology | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS" />
+  <meta property="og:title" content="Gathering requirements | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Current FORESTRY methodology | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS" />
+  <meta name="twitter:title" content="Gathering requirements | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS" />
   
   <meta name="twitter:description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="migration-actors.html"/>
-<link rel="next" href="gathering-requirements.html"/>
+<link rel="prev" href="current-foretry-production-and-trade-workflow.html"/>
+<link rel="next" href="proposed-automations.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -69,17 +69,18 @@
 <ul class="summary">
 <li><a href="index.html#introduction"><strong>Introduction</strong></a></li>
 <li><a href="migration-actors.html#migration-actors"><strong>Migration actors</strong></a></li>
-<li><a href="current-forestry-methodology.html#current-forestry-methodology"><strong>Current FORESTRY methodology</strong></a><ul>
-<li><a href="current-forestry-methodology.html#data-collection"><strong>Data Collection</strong></a></li>
-<li><a href="current-forestry-methodology.html#forestry-data-processing"><strong>Forestry data processing: </strong></a></li>
+<li><a href="current-foretry-production-and-trade-workflow.html#current-foretry-production-and-trade-workflow"><strong>Current Foretry Production and Trade workflow</strong></a><ul>
+<li><a href="current-foretry-production-and-trade-workflow.html#data-collection"><strong>Data Collection</strong></a></li>
+<li><a href="current-foretry-production-and-trade-workflow.html#data-imput-system"><strong>Data Imput System</strong></a></li>
+<li><a href="current-foretry-production-and-trade-workflow.html#dissemination-system"><strong>Dissemination System</strong></a></li>
 </ul></li>
-<li><a href="gathering-requirements.html#gathering-requirements"><strong>Gathering requirements </strong></a><ul>
-<li><a href="gathering-requirements.html#aggreed"><strong>Aggreed</strong></a></li>
-</ul></li>
+<li><a href="gathering-requirements.html#gathering-requirements"><strong>Gathering requirements</strong></a></li>
+<li><a href="proposed-automations.html#proposed-automations"><strong>Proposed automations</strong></a></li>
 <li><a href="forestry-statistical-objects.html#forestry-statistical-objects"><strong>Forestry Statistical Objects</strong></a><ul>
 <li><a href="forestry-statistical-objects.html#domain"><strong>Domain</strong></a></li>
 <li><a href="forestry-statistical-objects.html#forestry-code-lists"><strong>Forestry Code lists</strong></a></li>
 <li><a href="forestry-statistical-objects.html#data-tables"><strong>Data tables</strong></a></li>
+<li><a href="forestry-statistical-objects.html#data-sets"><strong>Data sets</strong></a></li>
 </ul></li>
 </ul>
 
@@ -98,32 +99,17 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="current-forestry-methodology" class="section level1 unnumbered">
-<h1><strong>Current FORESTRY methodology</strong></h1>
-<p>The book focuses on SWS statistical processes on progress. However, it is important to provide an overview of the current statistical value chain carried by FOA.</p>
-<div id="data-collection" class="section level2 unnumbered">
-<h2><strong>Data Collection</strong></h2>
-<p>The FORESTRY PRODUCTION AND TRADE data collection relies on the <a href="http://www.fao.org/forestry/statistics/jfsq/en/">Joint Forestry Sector Questionnaire distpatch</a>. The dispatch of the <a href="http://www.fao.org/forestry/statistics/jfsq/en/">same harmonized questionnaire</a> is carried out by FAO by its international partners:</p>
-<ul>
-<li><strong>ITTO</strong> : The <a href="https://www.itto.int/">International Tropical Timber Organization</a></li>
-<li><strong>Eurostat</strong> : The <a href="https://ec.europa.eu/eurostat">European Statistics</a></li>
-<li><strong>UNECE</strong> : The <a href="http://www.unece.org/info/ece-homepage.html">United Nations Economic Comission for Europe</a></li>
-</ul>
-<p>FAO sends questionnaires to countries in May/June and the deadline for the first response is September 1st. The partners send out questionnaires between April and June and FAO receives validated data from partners from July to November.</p>
-</div>
-<div id="forestry-data-processing" class="section level2 unnumbered">
-<h2><strong>Forestry data processing: </strong></h2>
-<p>As the questionnaires are sending back to FAO, the FOA unit processes the data as follow: <br></p>
-<p><code>{ r Fig.1, echo=FALSE, out.width=&quot;100%&quot;, fig.cap='Current FOA Workflow', message=FALSE, warning=FALSE} knitr::include_graphics(&quot;images/current_processing.png&quot;)</code></p>
-</div>
+<div id="gathering-requirements" class="section level1 unnumbered">
+<h1><strong>Gathering requirements</strong></h1>
+<p>The ESS-SWS team held meetings with FOA in order to collect what should be migrated from the current system into the SWS.Before dissemination, the final FAOSTAT - based Forestry commodity and geographic aggregations are carried at Statistics Division level by <strong>Amanda Gordon (ESSD- Statistician)</strong>. However, the current systems provides FOA a way to compute these aggregations as a validation step so that the officer can apply domain-knowledge before the green light for aggregation at the ESSD level. Therefore, ESS-SWS team has been asked to replicate this functionality in the SWS.</p>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="migration-actors.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="gathering-requirements.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="current-foretry-production-and-trade-workflow.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="proposed-automations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
