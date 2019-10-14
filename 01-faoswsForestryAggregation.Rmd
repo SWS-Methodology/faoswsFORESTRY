@@ -212,7 +212,6 @@ pivot_regional_flags <- GetFlags(data = pivot_regional_unit)
 
 ## **Convert FAOSTAT regions to SWS regions**
 The processed regional data set uses FAOSTAT codes for regions. To be able to save the results in the SWS, regions must be converted to SWS regional codes compatible with the **geographicAreaM49** in the **forestry_prod_trade_agg** dataset. For this, the module uses the following function.
-
 ```{r, eval=FALSE}
 fs2m49_reg <- function(data){
     df <- copy(data)
@@ -221,7 +220,7 @@ fs2m49_reg <- function(data){
     df_reg <- df[geographicAreaM49 %in% reg_code]
     fs_m49_regg <- fs_m49_reg[!is.na(m49_reg)]
     dmerged <- merge(df_reg, fs_m49_regg, by.x = "geographicAreaM49", by.y = "fs_reg")
-    df_merged <- dmerged[, geographicAreaM49 := NULL]
+    dmerged[, geographicAreaM49 := NULL]
     setnames(df_merged, "m49_reg", "geographicAreaM49")
     df_merged <- df_merged[, mget(n_df)]
     df_final_ <- df_merged[geographicAreaM49 %in% major_regions][order(geographicAreaM49, measuredItemForestry, measuredItemForestry)]
@@ -244,7 +243,6 @@ data_all <- data_all[complete.cases(data_all), ]
 
 ## **Compare before and after aggregations**
 As a validation tool, the faoswsForestryAggregation module also needs to return what has changed from the input dataset. The module flags values where the absolute difference between the input dataset and the aggregate dataset is higher than one. This comparison is carried on the code snippet below.
-
 ```{r, eval=FALSE}
 comp <- data_raw[data_all, on = colalways][, `:=` (diff = round(abs(Value - i.Value), 1))][diff > 0.1]
 comp <- nameData('forestry', "forestry_prod_trade", comp)
@@ -274,12 +272,11 @@ paste0("ForestryAggregation module ran successfully!!!",
 ```
 <br>
 
-# **Runnig the module.** {-}
+## **Runnig the module (STEP BY STEP)** {-}
 
 The steps decrebide below are pointing the users (FOA unit) to the right direction for running the module sucessfully.
 
 1. Login to [SWS QA](https://caf.fao.org/login?service=https://hqlqasws1.hq.un.fao.org:8443/sws/).
-
 ```{r , echo=FALSE, out.width="100%", fig.cap='SWS QA login.', message=FALSE, warning=FALSE}
 knitr::include_graphics("images/step_01.png")
 ```
@@ -292,25 +289,26 @@ knitr::include_graphics("images/step_02.png")
 ```
 <br>
 
+```{block}
+
+The module has met the.
+
+```
+
+
 3. Select faoswsForestryAggregation plugin.
 ```{r , echo=FALSE, out.width="100%", fig.cap='SWS QA login.', message=FALSE, warning=FALSE}
 knitr::include_graphics("images/step_03.png")
 ```
 <br>
 
-4. Select faoswsForestryAggregation and run plugin.
-```{r , echo=FALSE, out.width="100%", fig.cap='Select and run the plugin.', message=FALSE, warning=FALSE}
-knitr::include_graphics("images/step_04.png")
-```
-<br>
-
-5. Wait for results.
+4. Wait for results.
 ```{r , echo=FALSE, out.width="100%", fig.cap='Waiting for results.', message=FALSE, warning=FALSE}
 knitr::include_graphics("images/step_05.png")
 ```
 <br>
 
-6. Check results on the session.
+5. Check results on the session.
 The data set is saved directly in the database as forestry_prod_trade_agg data set. The user can check the results on the session.
 ```{r , echo=FALSE, out.width="100%", fig.cap='Aggregates on the session.', message=FALSE, warning=FALSE}
 knitr::include_graphics("images/step_06.png")

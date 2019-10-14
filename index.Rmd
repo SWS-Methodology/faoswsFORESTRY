@@ -54,6 +54,19 @@ The FORESTRY PRODUCTION AND TRADE data collection relies on the [Joint Forestry 
   - **ITTO** : The [International Tropical Timber Organization](https://www.itto.int/)
   - **Eurostat** : The [European Statistics](https://ec.europa.eu/eurostat)
   - **UNECE** : The [United Nations Economic Comission for Europe](http://www.unece.org/info/ece-homepage.html)
+  
+```{r tab1, echo=FALSE, message=FALSE}
+suppressWarnings({
+require(data.table)
+require(kableExtra)
+})
+d = data.table::fread("tables/countries_partners.csv")
+knitr::kable(d,
+             caption = paste("Joint questionnaire dispatch task force for Forestry Production and Trade data collection."),
+             booktabs = TRUE) %>%
+kableExtra::kable_styling(font_size = 12)
+```
+  
 
 FAO sends questionnaires to countries in May/June and the deadline for the first response is September 1st. The partners send out questionnaires between April and June and FAO receives validated data from partners from July to November.
 
@@ -116,7 +129,7 @@ Code lists, also called reference data in SWS parlance, are the dimensions makin
 <br>
 2. **measuredItemForestry**. Those one wants to take a measurement from. For example, forestry commodities, forestry commodity groups. Forestry commodity classifications and standards are available at [this link](http://www.fao.org/forestry/statistics/80572/en/).
 <br>
-```{r tab1, echo=FALSE, message=FALSE}
+```{r tab2, echo=FALSE, message=FALSE}
 suppressWarnings({
 require(data.table)
 require(kableExtra)
@@ -136,7 +149,7 @@ knitr::kable(d,
 <br>
 6. **flagMethod**. Code list for internal use (not dissemination) representing a standardized label indicating method utilized to obtain a figure in the data set (FAO questionnaire, external database, estimation, imputation, expert, etc. Please check the [OCS statistical standards](http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/) and the [flags document](http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS1_Flags.pdf) to understand the flagMethod rational and  obtain the description of flags.
 <br>
-```{r tab2, echo=FALSE, message=FALSE}
+```{r tab3, echo=FALSE, message=FALSE}
 suppressWarnings({
 require(data.table)
 require(kableExtra)
@@ -154,7 +167,7 @@ knitr::kable(d,
 Data tables are mainly used to store information helping R modules to output analytical results. Information in data tables can be of a number of types. For example, conversion factors, arithmetic formulas, mapping between flags, mapping between international classifications, etc. In SWS hierarchy, all data tables reside in a given statistical domain. In the FORESTRY PRODUCTION AND TRADE migration framework, the data tables are, of course, in the **Forestry domain**. Below is a list of current available and filled data tables in the Forestry domain:
 
 1. **forestry_aggregation_tree**. A data table with group commodity and their primary commodities.
-```{r tab3, echo=FALSE, message=FALSE}
+```{r tab4, echo=FALSE, message=FALSE}
 suppressWarnings({
 require(data.table)
 require(kableExtra)
@@ -171,7 +184,7 @@ knitr::kable(d,
 <br>
 3. **m49_fs_iso_mapping**. An SWS dataset data table storing the mapping between FAOSTAT and UNSD M49 codes used to carry geographic aggregations. This mapping table was imported from here []
 <br>
-```{r tab4, echo=FALSE, message=FALSE}
+```{r tab5, echo=FALSE, message=FALSE}
 suppressWarnings({
 require(data.table)
 require(kableExtra)
@@ -182,7 +195,6 @@ knitr::kable(d,
              booktabs = TRUE) %>%
   kableExtra::kable_styling(font_size = 12)
 ```
-
 
 ## **Data sets** {-}
 Datasets in the SWS are interchangeably used as module inputs/outputs and are composed by dimensions (aka reference/code lists). Because SWS datasets contain code lists following international standards as dimensions, there is little space for variation of dimension names across SWS datasets for the sake of standardization. The datasets in the Forestry domain are:

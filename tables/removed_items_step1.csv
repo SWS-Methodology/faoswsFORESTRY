@@ -1,0 +1,11 @@
+ItemName,ItemCode,ItemName,ItemCode
+ Sawlogs and veneer logs-- coniferous,1601, Industrial roundwood-- coniferous (export/import),1651
+ Pulpwood-- round and split-- coniferous (production),1602, Industrial roundwood-- non-coniferous tropical (export/import),1657
+ Pulpwood-- round and split-- non-coniferous (production),1603, Industrial roundwood-- non-coniferous non-tropical (export/import),1670
+ Sawlogs and veneer logs-- non-coniferous,1604, Roundwood-- coniferous (production),1862
+ Wood chips and particles,1619, Roundwood-- non-coniferous (production),1863
+ Other industrial roundwood-- coniferous (production),1623, Sawlogs and veneer logs,1868
+ Other industrial roundwood-- non-coniferous (production),1626, Other industrial roundwood,1871
+ Wood fuel-- coniferous (production),1627, Forest products (export/import),1877
+ Wood fuel-- non-coniferous (production),1628, Total fibre furnish,1879
+ Wood fuel-- all species (export/import),1629, Pulpwood-- round and split-- all species (production),2038

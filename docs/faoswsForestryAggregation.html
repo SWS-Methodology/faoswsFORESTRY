@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html >
+
 <head>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Chapter 1 The faoswsForestryAggregation module | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS</title>
-  <meta name="description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)" />
-  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+  <meta name="description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
   <meta property="og:title" content="Chapter 1 The faoswsForestryAggregation module | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS" />
   <meta property="og:type" content="book" />
@@ -21,18 +22,18 @@
   <meta name="twitter:description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)" />
   
 
-<meta name="author" content="Francy Lisboa (Statistician, ESSD - Methodological Innovation Team, FAO)" />
+<meta name="author" content="Francy Lisboa (Statistician, ESSD - Methodological Innovation Team, FAO)">
 
 
-<meta name="date" content="2019-10-11" />
+<meta name="date" content="2019-10-14">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="runnig-the-module-.html"/>
+<link rel="prev" href="index.html">
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -40,9 +41,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
-
 
 
 
@@ -124,8 +122,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="1.8" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#binding-national-and-regional-data"><i class="fa fa-check"></i><b>1.8</b> <strong>Binding national and regional data</strong></a></li>
 <li class="chapter" data-level="1.9" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#compare-before-and-after-aggregations"><i class="fa fa-check"></i><b>1.9</b> <strong>Compare before and after aggregations</strong></a></li>
 <li class="chapter" data-level="1.10" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#save-data-in-the-sws-shared-drive-and-in-the-sws-database"><i class="fa fa-check"></i><b>1.10</b> <strong>Save data in the SWS shared drive and in the SWS database</strong></a></li>
+<li><a href="faoswsForestryAggregation.html#runnig-the-module-step-by-step"><strong>Runnig the module (STEP BY STEP)</strong></a></li>
 </ul></li>
-<li><a href="runnig-the-module-.html#runnig-the-module."><strong>Runnig the module.</strong></a></li>
 </ul>
 
       </nav>
@@ -254,13 +252,13 @@ data_input_reg &lt;-<span class="st"> </span><span class="kw">unique</span>(data
 </caption>
 <thead>
 <tr>
-<th style="text-align:left;">
+<th style="text-align:right;">
 CommodityGroup
 </th>
 <th style="text-align:left;">
 CommodityGroupName
 </th>
-<th style="text-align:left;">
+<th style="text-align:right;">
 CommodityCode
 </th>
 <th style="text-align:left;">
@@ -270,13 +268,13 @@ CommodityName
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1656
 </td>
 <td style="text-align:left;">
 Chemical wood pulp
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1660
 </td>
 <td style="text-align:left;">
@@ -284,13 +282,13 @@ Chemical wood pulp, sulphite, unbleached
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1656
 </td>
 <td style="text-align:left;">
 Chemical wood pulp
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1661
 </td>
 <td style="text-align:left;">
@@ -298,13 +296,13 @@ Chemical wood pulp, sulphite, bleached
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1656
 </td>
 <td style="text-align:left;">
 Chemical wood pulp
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1662
 </td>
 <td style="text-align:left;">
@@ -312,13 +310,13 @@ Chemical wood pulp, sulphate, unbleached
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1656
 </td>
 <td style="text-align:left;">
 Chemical wood pulp
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1663
 </td>
 <td style="text-align:left;">
@@ -326,13 +324,13 @@ Chemical wood pulp, sulphate, bleached
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1674
 </td>
 <td style="text-align:left;">
 Printing and writing papers
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1612
 </td>
 <td style="text-align:left;">
@@ -340,13 +338,13 @@ Printing and writing papers, uncoated, wood containing
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1674
 </td>
 <td style="text-align:left;">
 Printing and writing papers
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1615
 </td>
 <td style="text-align:left;">
@@ -354,13 +352,13 @@ Printing and writing papers, uncoated, wood free
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1674
 </td>
 <td style="text-align:left;">
 Printing and writing papers
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1616
 </td>
 <td style="text-align:left;">
@@ -368,13 +366,13 @@ Printing and writing papers, coated
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1675
 </td>
 <td style="text-align:left;">
 Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1676
 </td>
 <td style="text-align:left;">
@@ -382,13 +380,13 @@ Household and sanitary papers
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1675
 </td>
 <td style="text-align:left;">
 Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1681
 </td>
 <td style="text-align:left;">
@@ -396,13 +394,13 @@ Wrapping and packaging paper and paperboard
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1675
 </td>
 <td style="text-align:left;">
 Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1683
 </td>
 <td style="text-align:left;">
@@ -410,13 +408,13 @@ Other paper and paperboard n.e.s.
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1681
 </td>
 <td style="text-align:left;">
 Wrapping and packaging paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1617
 </td>
 <td style="text-align:left;">
@@ -424,13 +422,13 @@ Case materials
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1681
 </td>
 <td style="text-align:left;">
 Wrapping and packaging paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1618
 </td>
 <td style="text-align:left;">
@@ -438,13 +436,13 @@ Cartonboard
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1681
 </td>
 <td style="text-align:left;">
 Wrapping and packaging paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1621
 </td>
 <td style="text-align:left;">
@@ -452,13 +450,13 @@ Wrapping papers
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1681
 </td>
 <td style="text-align:left;">
 Wrapping and packaging paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1622
 </td>
 <td style="text-align:left;">
@@ -558,7 +556,7 @@ pivot_regional_flags &lt;-<span class="st"> </span><span class="kw">GetFlags</sp
     df_reg &lt;-<span class="st"> </span>df[geographicAreaM49 <span class="op">%in%</span><span class="st"> </span>reg_code]
     fs_m49_regg &lt;-<span class="st"> </span>fs_m49_reg[<span class="op">!</span><span class="kw">is.na</span>(m49_reg)]
     dmerged &lt;-<span class="st"> </span><span class="kw">merge</span>(df_reg, fs_m49_regg, <span class="dt">by.x =</span> <span class="st">&quot;geographicAreaM49&quot;</span>, <span class="dt">by.y =</span> <span class="st">&quot;fs_reg&quot;</span>)
-    df_merged &lt;-<span class="st"> </span>dmerged[, geographicAreaM49 <span class="op">:</span><span class="er">=</span><span class="st"> </span><span class="ot">NULL</span>]
+    dmerged[, geographicAreaM49 <span class="op">:</span><span class="er">=</span><span class="st"> </span><span class="ot">NULL</span>]
     <span class="kw">setnames</span>(df_merged, <span class="st">&quot;m49_reg&quot;</span>, <span class="st">&quot;geographicAreaM49&quot;</span>)
     df_merged &lt;-<span class="st"> </span>df_merged[, <span class="kw">mget</span>(n_df)]
     df_final_ &lt;-<span class="st"> </span>df_merged[geographicAreaM49 <span class="op">%in%</span><span class="st"> </span>major_regions][<span class="kw">order</span>(geographicAreaM49, measuredItemForestry, measuredItemForestry)]
@@ -603,25 +601,72 @@ stats &lt;-<span class="st"> </span><span class="kw">SaveData</span>(<span class
        stats<span class="op">$</span>discarded, <span class="st">&quot; had problems.&quot;</span>)</code></pre></div>
 <p><br></p>
 </div>
+<div id="runnig-the-module-step-by-step" class="section level2 unnumbered">
+<h2><strong>Runnig the module (STEP BY STEP)</strong></h2>
+<p>The steps decrebide below are pointing the users (FOA unit) to the right direction for running the module sucessfully.</p>
+<ol style="list-style-type: decimal">
+<li>Login to <a href="https://caf.fao.org/login?service=https://hqlqasws1.hq.un.fao.org:8443/sws/">SWS QA</a>.
+<div class="figure"><span id="fig:unnamed-chunk-10"></span>
+<img src="images/step_01.PNG" alt="SWS QA login." width="100%" />
+<p class="caption">
+Figure 1.1: SWS QA login.
+</p>
+</div>
+<p><br></p></li>
+<li><strong>Run a new query.</strong> Run the query on the <strong>forestry_prod_trade_agg</strong> data set.
+<div class="figure"><span id="fig:unnamed-chunk-11"></span>
+<img src="images/step_02.PNG" alt="Run the query." width="100%" />
+<p class="caption">
+Figure 1.2: Run the query.
+</p>
+</div>
+<p><br></p></li>
+</ol>
+<p>The module has met the.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Select faoswsForestryAggregation plugin.
+<div class="figure"><span id="fig:unnamed-chunk-13"></span>
+<img src="images/step_03.PNG" alt="SWS QA login." width="100%" />
+<p class="caption">
+Figure 1.3: SWS QA login.
+</p>
+</div>
+<p><br></p></li>
+<li>Wait for results.
+<div class="figure"><span id="fig:unnamed-chunk-14"></span>
+<img src="images/step_05.PNG" alt="Waiting for results." width="100%" />
+<p class="caption">
+Figure 1.4: Waiting for results.
+</p>
+</div>
+<p><br></p></li>
+<li>Check results on the session. The data set is saved directly in the database as forestry_prod_trade_agg data set. The user can check the results on the session.
+<div class="figure"><span id="fig:unnamed-chunk-15"></span>
+<img src="images/step_06.PNG" alt="Aggregates on the session." width="100%" />
+<p class="caption">
+Figure 1.5: Aggregates on the session.
+</p>
+</div></li>
+</ol>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="runnig-the-module-.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
-<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
