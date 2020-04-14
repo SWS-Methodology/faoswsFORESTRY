@@ -1,0 +1,5 @@
+Field,Description
+item_group_code,Forestry item group code
+item_code,Forestry item code
+agg_order,Order of aggregation
+first_aggregates,First items to be aggregated

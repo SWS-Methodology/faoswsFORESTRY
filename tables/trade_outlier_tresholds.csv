@@ -1,0 +1,5 @@
+Field,Description
+item_code,Forestry item code
+element_code,Element code
+price_lower,Lower price
+price_upper,Upper price

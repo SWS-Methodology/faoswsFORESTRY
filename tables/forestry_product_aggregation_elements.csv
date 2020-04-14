@@ -1,0 +1,6 @@
+Field,Description
+Group,Forestry item group
+Element,Element from measuredElement code list
+Aggregate,Flag of aggregate
+Start Year,First year of the aggregate
+End Year,Last year of the aggregate

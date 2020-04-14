@@ -1,253 +1,64 @@
-ItemName,ItemCode
-"Sawlogs and veneer logs, coniferous",1601
-"Pulpwood, round and split, coniferous (production)",1602
-"Pulpwood, round and split, non-coniferous (production)",1603
-"Sawlogs and veneer logs, non-coniferous",1604
-OSB,1606
-"Pulpwood and particles, coniferous (production, 1961-1997)",1608
-Recovered fibre pulp,1609
-"Pulpwood and particles, non-coniferous (production, 1961-1997)",1611
-"Printing and writing papers, uncoated, wood containing",1612
-"Printing and writing papers, uncoated, wood free",1615
-"Printing and writing papers, coated",1616
-Case materials,1617
-Cartonboard,1618
-Wood chips and particles,1619
-Wood residues,1620
-Wrapping papers,1621
-Other papers mainly for packaging,1622
-"Other industrial roundwood, coniferous (production)",1623
-"Sawnwood, non-coniferous tropical",1624
-"Other industrial roundwood, non-coniferous (production)",1626
-"Wood fuel, coniferous",1627
-"Wood fuel, non-coniferous",1628
-Wood charcoal,1630
-"Sawnwood, coniferous",1632
-"Sawnwood, non-coniferous all",1633
-Veneer sheets,1634
-"Veneer sheets, coniferous",1635
-"Veneer sheets, non-coniferous all",1637
-"Veneer sheets, non-coniferous tropical",1638
-"Plywood, coniferous",1639
-Plywood,1640
-"Plywood, non-coniferous all",1641
-"Plywood, non-coniferous tropical",1642
-Particle board and OSB (1961-1994),1646
-Hardboard,1647
-MDF/HDF,1648
-"Fibreboard, compressed (1961-1994)",1649
-Other fibreboard,1650
-Mechanical wood pulp,1654
-Semi-chemical wood pulp,1655
-Chemical wood pulp,1656
-"Chemical wood pulp, sulphite, unbleached",1660
-"Chemical wood pulp, sulphite, bleached",1661
-"Chemical wood pulp, sulphate, unbleached",1662
-"Chemical wood pulp, sulphate, bleached",1663
-Dissolving wood pulp,1667
-Pulp from fibres other than wood,1668
-Recovered paper,1669
-Newsprint,1671
-Printing and writing papers,1674
-Other paper and paperboard,1675
-Household and sanitary papers,1676
-Wrapping and packaging paper and paperboard,1681
-Other paper and paperboard n.e.s.,1683
-Mechanical and semi-chemical wood pulp,1685
-"Chemical wood pulp, sulphite",1686
-Wood pellets,1693
-Other agglomerates,1694
-Particle board,1697
-"Veneer sheets all, coniferous",2065
-"Sawlogs and veneer logs, coniferous",1601
-"Sawlogs and veneer logs, non-coniferous",1604
-OSB,1606
-Recovered fibre pulp,1609
-"Printing and writing papers, uncoated, wood containing",1612
-"Pulpwood, round and split, all species (export/import, 1961-1989)",1614
-"Printing and writing papers, uncoated, wood free",1615
-"Printing and writing papers, coated",1616
-Case materials,1617
-Cartonboard,1618
-Wood chips and particles,1619
-Wood residues,1620
-Wrapping papers,1621
-Other papers mainly for packaging,1622
-"Other industrial roundwood, coniferous (production)",1623
-"Sawnwood, non-coniferous tropical",1624
-"Other industrial roundwood, all species (export/import, 1961-1989)",1625
-"Other industrial roundwood, non-coniferous (production)",1626
-"Wood fuel, coniferous",1627
-"Wood fuel, non-coniferous",1628
-"Wood fuel, all species (export/import)",1629
-Wood charcoal,1630
-"Sawnwood, coniferous",1632
-"Sawnwood, non-coniferous all",1633
-Veneer sheets,1634
-"Veneer sheets, coniferous",1635
-"Veneer sheets, non-coniferous all",1637
-"Veneer sheets, non-coniferous tropical",1638
-"Plywood, coniferous",1639
-Plywood,1640
-"Plywood, non-coniferous all",1641
-"Plywood, non-coniferous tropical",1642
-Particle board and OSB (1961-1994),1646
-Hardboard,1647
-MDF/HDF,1648
-"Fibreboard, compressed (1961-1994)",1649
-Other fibreboard,1650
-"Industrial roundwood, coniferous (export/import)",1651
-Mechanical wood pulp,1654
-Semi-chemical wood pulp,1655
-Chemical wood pulp,1656
-"Industrial roundwood, non-coniferous tropical (export/import)",1657
-"Chemical wood pulp, sulphite, unbleached",1660
-"Chemical wood pulp, sulphite, bleached",1661
-"Chemical wood pulp, sulphate, unbleached",1662
-"Chemical wood pulp, sulphate, bleached",1663
-Dissolving wood pulp,1667
-Pulp from fibres other than wood,1668
-Recovered paper,1669
-"Industrial roundwood, non-coniferous non-tropical (export/import)",1670
-Newsprint,1671
-Printing and writing papers,1674
-Other paper and paperboard,1675
-Household and sanitary papers,1676
-Wrapping and packaging paper and paperboard,1681
-Other paper and paperboard n.e.s.,1683
-Mechanical and semi-chemical wood pulp,1685
-"Chemical wood pulp, sulphite",1686
-Wood pellets,1693
-Other agglomerates,1694
-Particle board,1697
-"Veneer sheets all, coniferous",2065
-"Further processed sawnwood, coniferous",1643
-"Further processed sawnwood, non-coniferous all",1644
-"Further processed sawnwood, non-coniferous tropical",1645
-Wooden wrapping and packaging material,1652
-Builder's joinery and carpentry of wood,1653
-Wooden furniture,1658
-Prefabricated buildings,1659
-Prefabricated buildings of wood,1664
-Composite paper and paperboard,1665
-Special coated paper and pulp products,1666
-"Carbon paper and copying paper, ready for use",1672
-"Household and sanitary paper, ready for use",1673
-"Packaging cartons, boxes etc.",1677
-"Other articles of paper and paperboard, ready for use",1678
-"Printing and writing paper, ready for use",1679
-"Articles, moulded or pressed from pulp",1680
-"Filter paper and paperboard, ready for use",1682
-Mechanical and semi-chemical wood pulp,1685
-"Chemical wood pulp, sulphite",1686
-Veneer sheets all,1690
-Wood products for domestic/decorative use,1691
-Other manufactured wood products,1692
-"Veneer sheets all, coniferous",2065
-Recovered post-consumer wood,1600
-"Sawlogs and veneer logs, coniferous",1601
-"Pulpwood, round and split, coniferous (production)",1602
-"Pulpwood, round and split, non-coniferous (production)",1603
-"Sawlogs and veneer logs, non-coniferous",1604
-OSB,1606
-"Pulpwood and particles, coniferous (production, 1961-1997)",1608
-Recovered fibre pulp,1609
-"Pulpwood and particles, non-coniferous (production, 1961-1997)",1611
-"Printing and writing papers, uncoated, wood containing",1612
-"Pulpwood, round and split, all species (export/import, 1961-1989)",1614
-"Printing and writing papers, uncoated, wood free",1615
-"Printing and writing papers, coated",1616
-Case materials,1617
-Cartonboard,1618
-Wood chips and particles,1619
-Wood residues,1620
-Wrapping papers,1621
-Other papers mainly for packaging,1622
-"Other industrial roundwood, coniferous (production)",1623
-"Sawnwood, non-coniferous tropical",1624
-"Other industrial roundwood, all species (export/import, 1961-1989)",1625
-"Other industrial roundwood, non-coniferous (production)",1626
-"Wood fuel, coniferous",1627
-"Wood fuel, non-coniferous",1628
-"Wood fuel, all species (export/import)",1629
-Wood charcoal,1630
-"Sawnwood, coniferous",1632
-"Sawnwood, non-coniferous all",1633
-Veneer sheets,1634
-"Veneer sheets, coniferous",1635
-"Veneer sheets, non-coniferous all",1637
-"Veneer sheets, non-coniferous tropical",1638
-"Plywood, coniferous",1639
-Plywood,1640
-"Plywood, non-coniferous all",1641
-"Plywood, non-coniferous tropical",1642
-"Further processed sawnwood, coniferous",1643
-"Further processed sawnwood, non-coniferous all",1644
-"Further processed sawnwood, non-coniferous tropical",1645
-Particle board and OSB (1961-1994),1646
-Hardboard,1647
-MDF/HDF,1648
-"Fibreboard, compressed (1961-1994)",1649
-Other fibreboard,1650
-"Industrial roundwood, coniferous (export/import)",1651
-Wooden wrapping and packaging material,1652
-Builder's joinery and carpentry of wood,1653
-Mechanical wood pulp,1654
-Semi-chemical wood pulp,1655
-Chemical wood pulp,1656
-"Industrial roundwood, non-coniferous tropical (export/import)",1657
-Wooden furniture,1658
-Prefabricated buildings,1659
-"Chemical wood pulp, sulphite, unbleached",1660
-"Chemical wood pulp, sulphite, bleached",1661
-"Chemical wood pulp, sulphate, unbleached",1662
-"Chemical wood pulp, sulphate, bleached",1663
-Prefabricated buildings of wood,1664
-Composite paper and paperboard,1665
-Special coated paper and pulp products,1666
-Dissolving wood pulp,1667
-Pulp from fibres other than wood,1668
-Recovered paper,1669
-"Industrial roundwood, non-coniferous non-tropical (export/import)",1670
-Newsprint,1671
-"Carbon paper and copying paper, ready for use",1672
-"Household and sanitary paper, ready for use",1673
-Printing and writing papers,1674
-Other paper and paperboard,1675
-Household and sanitary papers,1676
-"Packaging cartons, boxes etc.",1677
-"Other articles of paper and paperboard, ready for use",1678
-"Printing and writing paper, ready for use",1679
-"Articles, moulded or pressed from pulp",1680
-Wrapping and packaging paper and paperboard,1681
-"Filter paper and paperboard, ready for use",1682
-Other paper and paperboard n.e.s.,1683
-Mechanical and semi-chemical wood pulp,1685
-"Chemical wood pulp, sulphite",1686
-Veneer sheets all,1690
-Wood products for domestic/decorative use,1691
-Other manufactured wood products,1692
-Wood pellets,1693
-Other agglomerates,1694
-Particle board,1697
-"Veneer sheets all, non-coniferous all",1698
-"Veneer sheets all, non-coniferous tropical",1699
-"Veneer sheets all, coniferous",2065
- Pitprops C,1605
- Pitprops NC,1607
- Pitprops Trade,1610  
-Poles Piling Posts C,1613  
-  Wood for Charcoal,1631 
- Poles Piling Posts Trade,1636 
- Fuelwood,1684 
- Charcoal,1687
- Black Liquor,1688
- Pitprop&Oth Ind Roundwd,5217 
-  Printing+Writing Paper,5222 
-  Wrapg+Packg Paper+Board,5223  
-Other Paper+Paperboard,5224 
- Wood Charcoal,5247 
- Chips and Particles,5248  
-" Wood Chips, Particles and Residues",5249  
- Recovered Paper,5252
- Chemical Wood Pulp,5503  
+ItemName,ItemCode,ItemName,ItemCode,ItemName,ItemCode,ItemName,ItemCode
+"Sawlogs and veneer logs, coniferous",1601,Recovered fibre pulp,1609,Builder's joinery and carpentry of wood,1653,Other fibreboard,1650
+"Pulpwood, round and split, coniferous (production)",1602,"Printing and writing papers, uncoated, wood containing",1612,Wooden furniture,1658,"Industrial roundwood, coniferous (export/import)",1651
+"Pulpwood, round and split, non-coniferous (production)",1603,"Pulpwood, round and split, all species (export/import, 1961-1989)",1614,Prefabricated buildings,1659,Wooden wrapping and packaging material,1652
+"Sawlogs and veneer logs, non-coniferous",1604,"Printing and writing papers, uncoated, wood free",1615,Prefabricated buildings of wood,1664,Builder's joinery and carpentry of wood,1653
+OSB,1606,"Printing and writing papers, coated",1616,Composite paper and paperboard,1665,Mechanical wood pulp,1654
+"Pulpwood and particles, coniferous (production, 1961-1997)",1608,Case materials,1617,Special coated paper and pulp products,1666,Semi-chemical wood pulp,1655
+Recovered fibre pulp,1609,Cartonboard,1618,"Carbon paper and copying paper, ready for use",1672,Chemical wood pulp,1656
+"Pulpwood and particles, non-coniferous (production, 1961-1997)",1611,Wood chips and particles,1619,"Household and sanitary paper, ready for use",1673,"Industrial roundwood, non-coniferous tropical (export/import)",1657
+"Printing and writing papers, uncoated, wood containing",1612,Wood residues,1620,"Packaging cartons, boxes etc.",1677,Wooden furniture,1658
+"Printing and writing papers, uncoated, wood free",1615,Wrapping papers,1621,"Other articles of paper and paperboard, ready for use",1678,Prefabricated buildings,1659
+"Printing and writing papers, coated",1616,Other papers mainly for packaging,1622,"Printing and writing paper, ready for use",1679,"Chemical wood pulp, sulphite, unbleached",1660
+Case materials,1617,"Other industrial roundwood, coniferous (production)",1623,"Articles, moulded or pressed from pulp",1680,"Chemical wood pulp, sulphite, bleached",1661
+Cartonboard,1618,"Sawnwood, non-coniferous tropical",1624,"Filter paper and paperboard, ready for use",1682,"Chemical wood pulp, sulphate, unbleached",1662
+Wood chips and particles,1619,"Other industrial roundwood, all species (export/import, 1961-1989)",1625,Mechanical and semi-chemical wood pulp,1685,"Chemical wood pulp, sulphate, bleached",1663
+Wood residues,1620,"Other industrial roundwood, non-coniferous (production)",1626,"Chemical wood pulp, sulphite",1686,Prefabricated buildings of wood,1664
+Wrapping papers,1621,"Wood fuel, coniferous",1627,Veneer sheets all,1690,Composite paper and paperboard,1665
+Other papers mainly for packaging,1622,"Wood fuel, non-coniferous",1628,Wood products for domestic/decorative use,1691,Special coated paper and pulp products,1666
+"Other industrial roundwood, coniferous (production)",1623,"Wood fuel, all species (export/import)",1629,Other manufactured wood products,1692,Dissolving wood pulp,1667
+"Sawnwood, non-coniferous tropical",1624,Wood charcoal,1630,"Veneer sheets all, coniferous",2065,Pulp from fibres other than wood,1668
+"Other industrial roundwood, non-coniferous (production)",1626,"Sawnwood, coniferous",1632,Recovered post-consumer wood,1600,Recovered paper,1669
+"Wood fuel, coniferous",1627,"Sawnwood, non-coniferous all",1633,"Sawlogs and veneer logs, coniferous",1601,"Industrial roundwood, non-coniferous non-tropical (export/import)",1670
+"Wood fuel, non-coniferous",1628,Veneer sheets,1634,"Pulpwood, round and split, coniferous (production)",1602,Newsprint,1671
+Wood charcoal,1630,"Veneer sheets, coniferous",1635,"Pulpwood, round and split, non-coniferous (production)",1603,"Carbon paper and copying paper, ready for use",1672
+"Sawnwood, coniferous",1632,"Veneer sheets, non-coniferous all",1637,"Sawlogs and veneer logs, non-coniferous",1604,"Household and sanitary paper, ready for use",1673
+"Sawnwood, non-coniferous all",1633,"Veneer sheets, non-coniferous tropical",1638,OSB,1606,Printing and writing papers,1674
+Veneer sheets,1634,"Plywood, coniferous",1639,"Pulpwood and particles, coniferous (production, 1961-1997)",1608,Other paper and paperboard,1675
+"Veneer sheets, coniferous",1635,Plywood,1640,Recovered fibre pulp,1609,Household and sanitary papers,1676
+"Veneer sheets, non-coniferous all",1637,"Plywood, non-coniferous all",1641,"Pulpwood and particles, non-coniferous (production, 1961-1997)",1611,"Packaging cartons, boxes etc.",1677
+"Veneer sheets, non-coniferous tropical",1638,"Plywood, non-coniferous tropical",1642,"Printing and writing papers, uncoated, wood containing",1612,"Other articles of paper and paperboard, ready for use",1678
+"Plywood, coniferous",1639,Particle board and OSB (1961-1994),1646,"Pulpwood, round and split, all species (export/import, 1961-1989)",1614,"Printing and writing paper, ready for use",1679
+Plywood,1640,Hardboard,1647,"Printing and writing papers, uncoated, wood free",1615,"Articles, moulded or pressed from pulp",1680
+"Plywood, non-coniferous all",1641,MDF/HDF,1648,"Printing and writing papers, coated",1616,Wrapping and packaging paper and paperboard,1681
+"Plywood, non-coniferous tropical",1642,"Fibreboard, compressed (1961-1994)",1649,Case materials,1617,"Filter paper and paperboard, ready for use",1682
+Particle board and OSB (1961-1994),1646,Other fibreboard,1650,Cartonboard,1618,Other paper and paperboard n.e.s.,1683
+Hardboard,1647,"Industrial roundwood, coniferous (export/import)",1651,Wood chips and particles,1619,Mechanical and semi-chemical wood pulp,1685
+MDF/HDF,1648,Mechanical wood pulp,1654,Wood residues,1620,"Chemical wood pulp, sulphite",1686
+"Fibreboard, compressed (1961-1994)",1649,Semi-chemical wood pulp,1655,Wrapping papers,1621,Veneer sheets all,1690
+Other fibreboard,1650,Chemical wood pulp,1656,Other papers mainly for packaging,1622,Wood products for domestic/decorative use,1691
+Mechanical wood pulp,1654,"Industrial roundwood, non-coniferous tropical (export/import)",1657,"Other industrial roundwood, coniferous (production)",1623,Other manufactured wood products,1692
+Semi-chemical wood pulp,1655,"Chemical wood pulp, sulphite, unbleached",1660,"Sawnwood, non-coniferous tropical",1624,Wood pellets,1693
+Chemical wood pulp,1656,"Chemical wood pulp, sulphite, bleached",1661,"Other industrial roundwood, all species (export/import, 1961-1989)",1625,Other agglomerates,1694
+"Chemical wood pulp, sulphite, unbleached",1660,"Chemical wood pulp, sulphate, unbleached",1662,"Other industrial roundwood, non-coniferous (production)",1626,Particle board,1697
+"Chemical wood pulp, sulphite, bleached",1661,"Chemical wood pulp, sulphate, bleached",1663,"Wood fuel, coniferous",1627,"Veneer sheets all, non-coniferous all",1698
+"Chemical wood pulp, sulphate, unbleached",1662,Dissolving wood pulp,1667,"Wood fuel, non-coniferous",1628,"Veneer sheets all, non-coniferous tropical",1699
+"Chemical wood pulp, sulphate, bleached",1663,Pulp from fibres other than wood,1668,"Wood fuel, all species (export/import)",1629,"Veneer sheets all, coniferous",2065
+Dissolving wood pulp,1667,Recovered paper,1669,Wood charcoal,1630, Pitprops C,1605
+Pulp from fibres other than wood,1668,"Industrial roundwood, non-coniferous non-tropical (export/import)",1670,"Sawnwood, coniferous",1632, Pitprops NC,1607
+Recovered paper,1669,Newsprint,1671,"Sawnwood, non-coniferous all",1633, Pitprops Trade,1610
+Newsprint,1671,Printing and writing papers,1674,Veneer sheets,1634,Poles Piling Posts C,1613
+Printing and writing papers,1674,Other paper and paperboard,1675,"Veneer sheets, coniferous",1635,  Wood for Charcoal,1631
+Other paper and paperboard,1675,Household and sanitary papers,1676,"Veneer sheets, non-coniferous all",1637, Poles Piling Posts Trade,1636
+Household and sanitary papers,1676,Wrapping and packaging paper and paperboard,1681,"Veneer sheets, non-coniferous tropical",1638, Fuelwood,1684
+Wrapping and packaging paper and paperboard,1681,Other paper and paperboard n.e.s.,1683,"Plywood, coniferous",1639, Charcoal,1687
+Other paper and paperboard n.e.s.,1683,Mechanical and semi-chemical wood pulp,1685,Plywood,1640, Black Liquor,1688
+Mechanical and semi-chemical wood pulp,1685,"Chemical wood pulp, sulphite",1686,"Plywood, non-coniferous all",1641, Pitprop&Oth Ind Roundwd,5217
+"Chemical wood pulp, sulphite",1686,Wood pellets,1693,"Plywood, non-coniferous tropical",1642,  Printing+Writing Paper,5222
+Wood pellets,1693,Other agglomerates,1694,"Further processed sawnwood, coniferous",1643,  Wrapg+Packg Paper+Board,5223
+Other agglomerates,1694,Particle board,1697,"Further processed sawnwood, non-coniferous all",1644,Other Paper+Paperboard,5224
+Particle board,1697,"Veneer sheets all, coniferous",2065,"Further processed sawnwood, non-coniferous tropical",1645, Wood Charcoal,5247
+"Veneer sheets all, coniferous",2065,"Further processed sawnwood, coniferous",1643,Particle board and OSB (1961-1994),1646, Chips and Particles,5248
+"Sawlogs and veneer logs, coniferous",1601,"Further processed sawnwood, non-coniferous all",1644,Hardboard,1647," Wood Chips, Particles and Residues",5249
+"Sawlogs and veneer logs, non-coniferous",1604,"Further processed sawnwood, non-coniferous tropical",1645,MDF/HDF,1648, Recovered Paper,5252
+OSB,1606,Wooden wrapping and packaging material,1652,"Fibreboard, compressed (1961-1994)",1649, Chemical Wood Pulp,5503

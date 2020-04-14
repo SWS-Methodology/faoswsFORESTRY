@@ -1,0 +1,5 @@
+Field,Description
+domain_code,Code of the Forestry domain
+element_code,Element code
+element_name,Element name
+unit_name,Unit of element

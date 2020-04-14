@@ -1,0 +1,9 @@
+Field,Description
+geographicAreaM49,M49 country code
+measuredItemForestry,Forestry item code
+measuredElement,Element code
+timePointYears,Year
+DataValue,Value
+flagObservationStatus,Flag of observation
+flagMethod,Flag of method
+MetadataValue_Source,Source

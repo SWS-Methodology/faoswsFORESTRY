@@ -1,0 +1,4 @@
+Field,Description
+fs_reg,FAOSTAT area group code
+m49_reg,SWS area group code
+group_area_name,Area group name

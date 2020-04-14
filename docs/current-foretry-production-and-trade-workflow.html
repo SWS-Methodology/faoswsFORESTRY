@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html >
-
+<html lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Current Foretry Production and Trade workflow | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS</title>
-  <meta name="description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)">
-  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Current Foretry Production and Trade workflow | Forestry Production and Trade in the SWS</title>
+  <meta name="description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Current Foretry Production and Trade workflow | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS" />
+  <meta property="og:title" content="Current Foretry Production and Trade workflow | Forestry Production and Trade in the SWS" />
   <meta property="og:type" content="book" />
   
-  
+  <meta property="og:image" content="images/tree.jpg" />
   <meta property="og:description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Current Foretry Production and Trade workflow | Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS" />
+  <meta name="twitter:title" content="Current Foretry Production and Trade workflow | Forestry Production and Trade in the SWS" />
   
   <meta name="twitter:description" content="The online book describes steps towards the migration of the current FORESTRY PRODUCTION AND TRADE statistical processes into the Corporate Statistical Working System (SWS)" />
+  <meta name="twitter:image" content="images/tree.jpg" />
+
+
+
+<meta name="date" content="2020-04-06" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
-
-<meta name="author" content="Francy Lisboa (Statistician, ESSD - Methodological Innovation Team, FAO)">
-
-
-<meta name="date" content="2019-10-14">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
-  
-<link rel="prev" href="migration-actors.html">
-<link rel="next" href="gathering-requirements.html">
+<link rel="prev" href="preface.html"/>
+<link rel="next" href="gathering-requirements.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -41,6 +39,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -51,6 +52,68 @@
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 
 
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <link rel="stylesheet" href="ess.css" type="text/css" />
 </head>
@@ -65,34 +128,43 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="index.html#introduction"><strong>Introduction</strong></a></li>
-<li><a href="migration-actors.html#migration-actors"><strong>Migration actors</strong></a></li>
+<li><a href="index.html#welcome"><strong>Welcome</strong></a></li>
+<li><a href="preface.html#preface"><strong>Preface</strong></a><ul>
+<li><a href="preface.html#how-to-use-this-book"><strong>How to use this book</strong></a></li>
+<li><a href="preface.html#why-to-use-the-sws"><strong>Why to use the SWS</strong></a></li>
+<li><a href="preface.html#migration-actors"><strong>Migration actors</strong></a></li>
+</ul></li>
 <li><a href="current-foretry-production-and-trade-workflow.html#current-foretry-production-and-trade-workflow"><strong>Current Foretry Production and Trade workflow</strong></a><ul>
 <li><a href="current-foretry-production-and-trade-workflow.html#data-collection"><strong>Data Collection</strong></a></li>
 <li><a href="current-foretry-production-and-trade-workflow.html#data-imput-system"><strong>Data Imput System</strong></a></li>
 <li><a href="current-foretry-production-and-trade-workflow.html#dissemination-system"><strong>Dissemination System</strong></a></li>
 </ul></li>
 <li><a href="gathering-requirements.html#gathering-requirements"><strong>Gathering requirements</strong></a></li>
-<li><a href="proposed-automations.html#proposed-automations"><strong>Proposed automations</strong></a></li>
-<li><a href="forestry-statistical-objects.html#forestry-statistical-objects"><strong>Forestry Statistical Objects</strong></a><ul>
-<li><a href="forestry-statistical-objects.html#domain"><strong>Domain</strong></a></li>
-<li><a href="forestry-statistical-objects.html#forestry-code-lists"><strong>Forestry Code lists</strong></a></li>
-<li><a href="forestry-statistical-objects.html#data-tables"><strong>Data tables</strong></a></li>
-<li><a href="forestry-statistical-objects.html#data-sets"><strong>Data sets</strong></a></li>
+<li><a href="proposed-automations.html#proposed-automations"><strong>Proposed automations</strong></a><ul>
+<li><a href="proposed-automations.html#domain"><strong>Domain</strong></a></li>
+<li><a href="proposed-automations.html#forestry-code-lists"><strong>Forestry Code lists</strong></a></li>
+<li><a href="proposed-automations.html#data-tables"><strong>Data tables</strong></a></li>
+<li><a href="proposed-automations.html#data-sets"><strong>Data sets</strong></a></li>
 </ul></li>
-<li class="chapter" data-level="1" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html"><i class="fa fa-check"></i><b>1</b> <strong>The faoswsForestryAggregation module</strong></a><ul>
-<li class="chapter" data-level="1.1" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#aims"><i class="fa fa-check"></i><b>1.1</b> <strong>Aims</strong></a></li>
-<li class="chapter" data-level="1.2" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#reads-in-the-input-data-set-and-data-tables"><i class="fa fa-check"></i><b>1.2</b> <strong>Reads in the input data set and data tables</strong></a></li>
-<li class="chapter" data-level="1.3" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#gets-regional-aggregation"><i class="fa fa-check"></i><b>1.3</b> <strong>Gets regional aggregation</strong></a></li>
-<li class="chapter" data-level="1.4" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#gets-forestry-commodity-aggregation"><i class="fa fa-check"></i><b>1.4</b> <strong>Gets Forestry commodity aggregation</strong></a></li>
-<li class="chapter" data-level="1.5" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#get-unit-values"><i class="fa fa-check"></i><b>1.5</b> <strong>Get Unit values</strong></a></li>
-<li class="chapter" data-level="1.6" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#get-back-the-original-flags"><i class="fa fa-check"></i><b>1.6</b> <strong>Get back the original flags</strong></a></li>
-<li class="chapter" data-level="1.7" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#convert-faostat-regions-to-sws-regions"><i class="fa fa-check"></i><b>1.7</b> <strong>Convert FAOSTAT regions to SWS regions</strong></a></li>
-<li class="chapter" data-level="1.8" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#binding-national-and-regional-data"><i class="fa fa-check"></i><b>1.8</b> <strong>Binding national and regional data</strong></a></li>
-<li class="chapter" data-level="1.9" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#compare-before-and-after-aggregations"><i class="fa fa-check"></i><b>1.9</b> <strong>Compare before and after aggregations</strong></a></li>
-<li class="chapter" data-level="1.10" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#save-data-in-the-sws-shared-drive-and-in-the-sws-database"><i class="fa fa-check"></i><b>1.10</b> <strong>Save data in the SWS shared drive and in the SWS database</strong></a></li>
-<li><a href="faoswsForestryAggregation.html#runnig-the-module-step-by-step"><strong>Runnig the module (STEP BY STEP)</strong></a></li>
+<li class="chapter" data-level="1" data-path="ForestryFramework.html"><a href="ForestryFramework.html"><i class="fa fa-check"></i><b>1</b> <strong>Forestry Production and Trade - Framework</strong></a></li>
+<li class="chapter" data-level="2" data-path="ForestryUNECEITTOInputData.html"><a href="ForestryUNECEITTOInputData.html"><i class="fa fa-check"></i><b>2</b> <strong>Forestry_UNECE_ITTO_Input_Data</strong></a></li>
+<li class="chapter" data-level="3" data-path="ForestryValidationInput.html"><a href="ForestryValidationInput.html"><i class="fa fa-check"></i><b>3</b> <strong>Forestry_Validation_Input</strong></a></li>
+<li class="chapter" data-level="4" data-path="ForestryCarryForward.html"><a href="ForestryCarryForward.html"><i class="fa fa-check"></i><b>4</b> <strong>faoswsForestryCarryForward</strong></a></li>
+<li class="chapter" data-level="5" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html"><i class="fa fa-check"></i><b>5</b> <strong>The faoswsForestryAggregation module</strong></a><ul>
+<li class="chapter" data-level="5.1" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#aims"><i class="fa fa-check"></i><b>5.1</b> <strong>Aims</strong></a></li>
+<li class="chapter" data-level="5.2" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#reads-in-the-input-data-set-and-data-tables"><i class="fa fa-check"></i><b>5.2</b> <strong>Reads in the input data set and data tables</strong></a></li>
+<li class="chapter" data-level="5.3" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#gets-regional-aggregation"><i class="fa fa-check"></i><b>5.3</b> <strong>Gets regional aggregation</strong></a></li>
+<li class="chapter" data-level="5.4" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#gets-forestry-commodity-aggregation"><i class="fa fa-check"></i><b>5.4</b> <strong>Gets Forestry commodity aggregation</strong></a></li>
+<li class="chapter" data-level="5.5" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#get-unit-values"><i class="fa fa-check"></i><b>5.5</b> <strong>Get Unit values</strong></a></li>
+<li class="chapter" data-level="5.6" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#get-back-the-original-flags"><i class="fa fa-check"></i><b>5.6</b> <strong>Get back the original flags</strong></a></li>
+<li class="chapter" data-level="5.7" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#convert-faostat-regions-to-sws-regions"><i class="fa fa-check"></i><b>5.7</b> <strong>Convert FAOSTAT regions to SWS regions</strong></a></li>
+<li class="chapter" data-level="5.8" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#binding-national-and-regional-data"><i class="fa fa-check"></i><b>5.8</b> <strong>Binding national and regional data</strong></a></li>
+<li class="chapter" data-level="5.9" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#compare-before-and-after-aggregations"><i class="fa fa-check"></i><b>5.9</b> <strong>Compare before and after aggregations</strong></a></li>
+<li class="chapter" data-level="5.10" data-path="faoswsForestryAggregation.html"><a href="faoswsForestryAggregation.html#save-data-in-the-sws-shared-drive-and-in-the-sws-database"><i class="fa fa-check"></i><b>5.10</b> <strong>Save data in the SWS shared drive and in the SWS database</strong></a></li>
 </ul></li>
+<li class="chapter" data-level="6" data-path="ForestryValidationAnnualChanges.html"><a href="ForestryValidationAnnualChanges.html"><i class="fa fa-check"></i><b>6</b> <strong>ForestryValidationAnnualChanges</strong></a></li>
+<li class="chapter" data-level="7" data-path="ForestryValidationNegativeConsump.html"><a href="ForestryValidationNegativeConsump.html"><i class="fa fa-check"></i><b>7</b> <strong>ForestryValidationNegativeConsump</strong></a></li>
+<li class="chapter" data-level="8" data-path="ForestryValidationUnitPrice.html"><a href="ForestryValidationUnitPrice.html"><i class="fa fa-check"></i><b>8</b> <strong>ForestryValidationUnitPrice</strong></a></li>
 </ul>
 
       </nav>
@@ -102,7 +174,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Migration of FORESTRY PRODUCTION AND TRADE Statistical Processes into the SWS</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Forestry Production and Trade in the SWS</a>
           </h1>
         </div>
 
@@ -117,13 +189,15 @@
 <h2><strong>Data Collection</strong></h2>
 <p>The FORESTRY PRODUCTION AND TRADE data collection relies on the <a href="http://www.fao.org/forestry/statistics/jfsq/en/">Joint Forestry Sector Questionnaire distpatch</a>. The dispatch of the <a href="http://www.fao.org/forestry/statistics/jfsq/en/">same harmonized questionnaire</a> is carried out by FAO by its international partners:</p>
 <ul>
-<li><strong>ITTO</strong> : The <a href="https://www.itto.int/">International Tropical Timber Organization</a></li>
+<li><strong>ITTO</strong> : The <a href="https://www.itto.int/">International Tropical Timber Organization</a>
+<ul>
 <li><strong>Eurostat</strong> : The <a href="https://ec.europa.eu/eurostat">European Statistics</a></li>
 <li><strong>UNECE</strong> : The <a href="http://www.unece.org/info/ece-homepage.html">United Nations Economic Comission for Europe</a></li>
+</ul></li>
 </ul>
 <table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:tab1">Table .: </span>Joint questionnaire dispatch task force for Forestry Production and Trade data collection.
+<span id="tab:tabCountryPartners">Table 0.1: </span>Joint questionnaire dispatch task force for Forestry Production and Trade data collection.
 </caption>
 <thead>
 <tr>
@@ -2126,36 +2200,42 @@ FAO
 </div>
 <div id="data-imput-system" class="section level2 unnumbered">
 <h2><strong>Data Imput System</strong></h2>
-As the questionnaires are sending back to FAO, the data enters as csv file in the Microsoft Access - driven FAOSTAT Input System, which was created and is primarily managed by the FAO Statistical Division ( <strong>Amanda Gordon (ESSD - Statistician</strong>). The FOA unit responsible for Forestry Production and Trade has permissions to work in it to put forward the data processing and validation processes needed before dissemination. <br> <br>
-<div class="figure"><span id="fig:unnamed-chunk-2"></span>
+As the questionnaires are sending back to FAO, the data enters as csv file in the Microsoft Access - driven FAOSTAT Input System, which was created and is primarily managed by the FAO Statistical Division ( <strong>Amanda Gordon (ESSD - Statistician</strong>). The FOA unit responsible for Forestry Production and Trade has permissions to work in it to put forward the data processing and validation processes needed before dissemination.
+<br>
+<br>
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
 <img src="images/current_system_01.png" alt="Frontpage of the current Forestry Input System" width="100%" />
 <p class="caption">
-Figure .: Frontpage of the current Forestry Input System
+Figure 0.1: Frontpage of the current Forestry Input System
 </p>
 </div>
-<br> <br>
-<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<br>
+<br>
+<div class="figure"><span id="fig:unnamed-chunk-4"></span>
 <img src="images/current_system_02.png" alt="Frontpage of the current Forestry Input System" width="100%" />
 <p class="caption">
-Figure .: Frontpage of the current Forestry Input System
+Figure 0.2: Frontpage of the current Forestry Input System
 </p>
 </div>
-<br> <br>
-<div class="figure"><span id="fig:unnamed-chunk-4"></span>
+<br>
+<br>
+<div class="figure"><span id="fig:unnamed-chunk-5"></span>
 <img src="images/current_processing.png" alt="Current FOA Workflow" width="100%" />
 <p class="caption">
-Figure .: Current FOA Workflow
+Figure 0.3: Current FOA Workflow
 </p>
 </div>
-<p><br> <br> <br></p>
+<p><br>
+<br>
+<br></p>
 </div>
 <div id="dissemination-system" class="section level2 unnumbered">
 <h2><strong>Dissemination System</strong></h2>
 <p>After processing the data, the FOA unit sends the country level results to the FAO Statistics Division for dissemination.</p>
-<div class="figure"><span id="fig:unnamed-chunk-5"></span>
+<div class="figure"><span id="fig:unnamed-chunk-6"></span>
 <img src="images/faostat_dissemination.png" alt="Forestry Production and Trade dissemination page (FAOSTAT)" width="100%" />
 <p class="caption">
-Figure .: Forestry Production and Trade dissemination page (FAOSTAT)
+Figure 0.4: Forestry Production and Trade dissemination page (FAOSTAT)
 </p>
 </div>
 </div>
@@ -2165,17 +2245,19 @@ Figure .: Forestry Production and Trade dissemination page (FAOSTAT)
           </div>
         </div>
       </div>
-<a href="migration-actors.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="preface.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="gathering-requirements.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -2183,12 +2265,11 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -2200,6 +2281,10 @@ gitbook.start({
 "text": null
 },
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },
