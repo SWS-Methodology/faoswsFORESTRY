@@ -105,7 +105,7 @@ Any migration into the SWS requires the interaction between at least three actor
 
 - **Bruno Caetano Vidigal** *Statistician (ESS)*
 - **Francy Lisboa** *Agronomist/Statistician (ESS)*
-- **Luis Silva** *Statistician (ESS)*
+- **Luís G. Silva e Silva** *Statistician (ESS)*
 - **Carola Fabi** *Senior Statistician (ESS)*
   
 3. The **CIO - SWS** the **primary backend and frontend maintainer of the SWS** and responsible for the implementation and documentation of non-statistical processes (IT infrastructure). The CIO - SWS team have as interlocutors:
