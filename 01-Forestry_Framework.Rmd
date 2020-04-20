@@ -9,11 +9,11 @@ knitr::include_graphics("images/Forestry_workflow.png")
 
 
 ## **Data Collection**
-The Forestry Production and Trade data collection relies on the [Joint Forestry Sector Questionnaire distpatch](http://www.fao.org/forestry/statistics/jfsq/en/). The dispatch of the [same harmonized questionnaire](http://www.fao.org/forestry/statistics/jfsq/en/) is carried out by FAO by its international partners:
-  
-- **ITTO** : The [International Tropical Timber Organization](https://www.itto.int/)
-- **Eurostat** : The [European Statistics](https://ec.europa.eu/eurostat)
-- **UNECE** : The [United Nations Economic Comission for Europe](http://www.unece.org/info/ece-homepage.html)
+The Forestry Production and Trade data collection relies on the [Joint Forestry Sector Questionnaire distpatch](http://www.fao.org/forestry/statistics/jfsq/en/). The dispatch of the [same harmonized questionnaire](http://www.fao.org/forestry/statistics/jfsq/en/) is carried out by FAO and its international partners:
+
+- **Eurostat** : The [statistical office of the European Union](https://ec.europa.eu/eurostat)  (responsible for EU and EFTA countries)  
+- **ITTO** : The [International Tropical Timber Organization](https://www.itto.int/) (responsible for all tropical timber producer countries and consumer countries in Asia and Oceania)
+- **UNECE** : The [United Nations Economic Comission for Europe](http://www.unece.org/info/ece-homepage.html) (responsible for non-EU countries in Europe, Central Asia and Northern America)
   
 <!--```{r tabCountryPartners, echo=FALSE, message=FALSE}
 suppressWarnings({

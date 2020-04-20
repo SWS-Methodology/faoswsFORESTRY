@@ -21,7 +21,7 @@ description: "The online book describes steps towards the migration of the curre
 
 ```{block , type='rmdnote'}
 **IMPORTANT:**
-Use the **Chrome browser** to have a correct vizualization of HTML outputs in this online document.
+Use the **Chrome browser** to have a correct visualization of HTML outputs in this online document.
 
 ```
 
@@ -97,7 +97,8 @@ Any migration into the SWS requires the interaction between at least three actor
 1. The **technical unit** interested in automating either some or all its analytical processes in the SWS. The technical unit can be treated as client demanding services from the counterparts responsible for the implementation of its data and statistical assets in the SWS. Therefore, a successful Forestry Production and Trade migration depends on the coordination between the technical division and other parts. In the Forestry Production and Trade migration to SWS the technical unit is represented by:
 
 - **Arvydas Lebedys** *Forestry Officer (FOA)*
-- **Roberto Bargigia** *Forestry clerk (FOA)*
+- **Roberto Bargigia** *Statistical Assistant (FOA)*
+- **Marcella Canero** *Statistical Assistant (FOA)*
 - **Iana Arkhipova** *Statistician (FOA)*
 
 

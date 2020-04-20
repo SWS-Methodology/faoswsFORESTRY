@@ -2,7 +2,7 @@
 
 # SWS resources
 
-SWS resources are R modules, datatables, data sets, and code lists comprising a migration framework. Datatables are typically used as auxiliary data to help R modules to achieve their goals. The statistical domains in SWS, through code/reference lists, define the dimensions of the datasets. Therefore, datasets are primarily used to store code list - referenced values as either input and output in the SWS. 
+SWS resources are R modules, data tables, data sets, and code lists comprising a migration framework. Data tables are typically used as auxiliary data to help R modules to achieve their goals. The statistical domains in SWS, through code/reference lists, define the dimensions of the datasets. Therefore, datasets are primarily used to store code list - referenced values as either input and output in the SWS. 
 
 ## Code lists
 
@@ -31,7 +31,7 @@ knitr::kable(d,
 
 - **Time** (the time unit the data is displayed for: year, months, etc). In SWS, the time dimension used by Forestry Production and Trade data sets is named **timePointYears**.
 
-- **Flag** (A standardized label indicating origin and/or nature of a number in the data set, e.g. <blank> (Official number)). In SWS, the flag dimension used by AQUASTAT data sets is named **flagObservationStatus**. Please check the [OCS statistical standards](http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/) and the [flags document](http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS_Observation_Status_Codes__Flags__endorsed__December_2016_.pdf ) to understand the flagObservationStatus rational and  obtain the description of flags. 
+- **Flag** (A standardized label indicating origin and/or nature of a number in the data set, e.g. <blank> (Official number)). In SWS, the flag dimension used by Forestry Production and Trade data sets is named **flagObservationStatus**. Please check the [OCS statistical standards](http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/) and the [flags document](http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS_Observation_Status_Codes__Flags__endorsed__December_2016_.pdf ) to understand the flagObservationStatus rational and  obtain the description of flags. 
 <br>
 
 
@@ -54,7 +54,7 @@ knitr::kable(d,
 
 
 <br>
-- **Method** (A standardized label indicating method utilized to obtain a number in the data set. In SWS, the method dimension used by AQUASTAT data sets is named **flagMethod**. Please check the [OCS statistical standards](http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/) and the [flags document](http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS_Observation_Status_Codes__Flags__endorsed__December_2016_.pdf ) to understand the flagMethod rational and  obtain the description of flags. 
+- **Method** (A standardized label indicating method utilized to obtain a number in the data set. In SWS, the method dimension used by Forestry Production and Trade data sets is named **flagMethod**. Please check the [OCS statistical standards](http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/) and the [flags document](http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS_Observation_Status_Codes__Flags__endorsed__December_2016_.pdf ) to understand the flagMethod rational and  obtain the description of flags. 
 
 ```{r tabFlagMethod, echo=FALSE, message=FALSE}
 require(data.table)
@@ -83,7 +83,7 @@ require(kableExtra)
 })
 d = suppressWarnings(data.table::fread("tables/flag_conversion.csv"))
 knitr::kable(d,
-             caption = paste("FAOSTAT-SWS mapping for observations and methods in Forestry."),
+             caption = paste("FAOSTAT-SWS mapping for observations and methods in Forestry Production and Trade."),
              booktabs = TRUE) %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 12)
@@ -100,9 +100,9 @@ knitr::include_graphics("images/typical_dataset_forestry.png")
 
 ## Datatables
 
-Datatables are mainly used to store information helping R modules to output analytical results. Information in datatables can be of a number of types. For example, conversion factors, arithmetic formulas, mapping between flags, mapping between international classifications, etc. In SWS hierarchy. all datatables reside in a given statistical domain. 
-Variable names (aka column names) in SWS datatables are more flexible in terms of the names they can take than SWS datasets. One can find SWS datatables naming variables as element_code, element_code_sws, element_code_faostat, etc. Likewise, columns describing countries across different datatable may have different classification systems. This flexibility in datatables is beneficial as it allows to accommodate different auxiliary information. 
-In the AQUASTAT - SWS migration framework, the data tables are in the **Aquastat domain**. Below is a list of current available and filled data tables in the Aquastat domain.
+Datatables are mainly used to store information helping R modules to output analytical results. Information in datatables can be of a number of types. For example, conversion factors, arithmetic formulas, mapping between flags, mapping between international classifications, etc. In SWS hierarchy, all data tables reside in a given statistical domain. 
+Variable names (aka column names) in SWS Datatables are more flexible in terms of the names they can take than SWS datasets. One can find SWS Datatables naming variables as element_code, element_code_sws, element_code_faostat, etc. Likewise, columns describing countries across different data tables may have different classification systems. This flexibility in Datatables is beneficial as it allows to accommodate different auxiliary information. 
+In the Forestry Production and Trade framework, the data tables are in the **Forestry domain**. Below is a list of current available and filled data tables in the Forestry domain.
 
 
 ## Forestry Product Aggregation Elements {-}
@@ -121,7 +121,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: Forestry Product Aggregation Elements") %>%
+             caption = "Columns description of the data table: Forestry Product Aggregation Elements") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 
@@ -132,7 +132,7 @@ knitr::kable(d,
 
 - **Datatable:** `Forestry Product Aggregation Tree`
 - **Domain:** Forestry
-- **Usage:** A datatable with group commodity and their primary commodities
+- **Usage:** A data table with group commodity and their primary commodities
 
 
 ```{r forestryproductaggregationtree, echo=FALSE, message=FALSE}
@@ -144,7 +144,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: Forestry Product Aggregation Tree") %>%
+             caption = "Columns description of the data table: Forestry Product Aggregation Tree") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 
@@ -167,7 +167,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: forestry_aggregate_composition") %>%
+             caption = "Columns description of the data table: forestry_aggregate_composition") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 
@@ -190,7 +190,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: forestry_country_partners") %>%
+             caption = "Columns description of the data table: forestry_country_partners") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 
@@ -201,7 +201,7 @@ knitr::kable(d,
 
 - **Datatable:** `forestry_domain_elements`
 - **Domain:** Forestry
-- **Usage:** An SWS datatable storing relevant Forestry elements and used to filter input dataset.
+- **Usage:** An SWS data table storing relevant Forestry elements and used to filter input dataset.
 
 
 ```{r forestrydomainelements, echo=FALSE, message=FALSE}
@@ -213,7 +213,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: forestry_domain_elements") %>%
+             caption = "Columns description of the data table: forestry_domain_elements") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 
@@ -236,7 +236,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: fs_m49_regions") %>%
+             caption = "Columns description of the data table: fs_m49_regions") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 
@@ -248,7 +248,7 @@ knitr::kable(d,
 
 - **Datatable:** `m49_fs_iso_mapping`
 - **Domain:** Common Domain
-- **Usage:** An SWS dataset datatable storing the mapping between FAOSTAT and UNSD M49 codes used to carry geographic aggregations. 
+- **Usage:** An SWS dataset data table storing the mapping between FAOSTAT and UNSD M49 codes used to carry geographic aggregations. 
 
 ```{r m49fsisomapping, echo=FALSE, message=FALSE}
 require(data.table)
@@ -259,7 +259,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: m49_fs_iso_mapping") %>%
+             caption = "Columns description of the data table: m49_fs_iso_mapping") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 
@@ -283,7 +283,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: Trade outlier tresholds") %>%
+             caption = "Columns description of the data table: Trade outlier tresholds") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 
@@ -295,7 +295,7 @@ knitr::kable(d,
 
 - **Datatable:** `UNECE/ITTO Input Data`
 - **Domain:** Forestry
-- **Usage:** This datatable is an input for the **forestry_prod_trade** dataset. It contains the partner's data and it is used in the module Forestry_UNECE_ITTO_Input_Data. For more details check chapter \@ref(ForestryUNECEITTOInputData). 
+- **Usage:** This data table is an input for the **forestry_prod_trade** dataset. It contains the partner's data and it is used in the module Forestry_UNECE_ITTO_Input_Data. For more details check chapter \@ref(ForestryUNECEITTOInputData). 
 
 
 ```{r uneceittoinputdata, echo=FALSE, message=FALSE}
@@ -307,7 +307,7 @@ knitr::kable(d,
              # escape = T, 
              # format = "html",
              # table.attr='class="table-fixed-header"',
-             caption = "Columns description of the datatable: UNECE/ITTO Input Data") %>%
+             caption = "Columns description of the data table: UNECE/ITTO Input Data") %>%
   row_spec(0, background = "#a9c9a7") %>% 
   kableExtra::kable_styling(font_size = 14) %>% 
   kable_styling(fixed_thead = T) 

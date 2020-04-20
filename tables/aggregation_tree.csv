@@ -1,184 +1,185 @@
-"CommodityGroup","CommodityGroupName","CommodityCode","CommodityName"
-"1656","Chemical wood pulp","1660","Chemical wood pulp, sulphite, unbleached"
-"1656","Chemical wood pulp","1661","Chemical wood pulp, sulphite, bleached"
-"1656","Chemical wood pulp","1662","Chemical wood pulp, sulphate, unbleached"
-"1656","Chemical wood pulp","1663","Chemical wood pulp, sulphate, bleached"
-"1674","Printing and writing papers","1612","Printing and writing papers, uncoated, wood containing"
-"1674","Printing and writing papers","1615","Printing and writing papers, uncoated, wood free"
-"1674","Printing and writing papers","1616","Printing and writing papers, coated"
-"1675","Other paper and paperboard","1676","Household and sanitary papers"
-"1675","Other paper and paperboard","1681","Wrapping and packaging paper and paperboard"
-"1675","Other paper and paperboard","1683","Other paper and paperboard n.e.s."
-"1681","Wrapping and packaging paper and paperboard","1617","Case materials"
-"1681","Wrapping and packaging paper and paperboard","1618","Cartonboard"
-"1681","Wrapping and packaging paper and paperboard","1621","Wrapping papers"
-"1681","Wrapping and packaging paper and paperboard","1622","Other papers mainly for packaging"
-"1695","Wood chips, particles and residues","1619","Wood chips and particles"
-"1695","Wood chips, particles and residues","1620","Wood residues"
-"1696","Wood pellets and other agglomerates","1693","Wood pellets"
-"1696","Wood pellets and other agglomerates","1694","Other agglomerates"
-"1859","Wood pulp, excluding mechanical wood pulp","1655","Semi-chemical wood pulp"
-"1859","Wood pulp, excluding mechanical wood pulp","1656","Chemical wood pulp"
-"1859","Wood pulp, excluding mechanical wood pulp","1667","Dissolving wood pulp"
-"1860","Paper and paperboard, excluding newsprint","1674","Printing and writing papers"
-"1860","Paper and paperboard, excluding newsprint","1675","Other paper and paperboard"
-"1861","Roundwood","1601","Sawlogs and veneer logs, coniferous"
-"1861","Roundwood","1602","Pulpwood, round and split, coniferous (production)"
-"1861","Roundwood","1603","Pulpwood, round and split, non-coniferous (production)"
-"1861","Roundwood","1604","Sawlogs and veneer logs, non-coniferous"
-"1861","Roundwood","1608","Pulpwood and particles, coniferous (production, 1961-1997)"
-"1861","Roundwood","1611","Pulpwood and particles, non-coniferous (production, 1961-1997)"
-"1861","Roundwood","1614","Pulpwood, round and split, all species (export/import, 1961-1989)"
-"1861","Roundwood","1623","Other industrial roundwood, coniferous (production)"
-"1861","Roundwood","1625","Other industrial roundwood, all species (export/import, 1961-1989)"
-"1861","Roundwood","1626","Other industrial roundwood, non-coniferous (production)"
-"1861","Roundwood","1627","Wood fuel, coniferous"
-"1861","Roundwood","1628","Wood fuel, non-coniferous"
-"1861","Roundwood","1629","Wood fuel, all species (export/import)"
-"1861","Roundwood","1651","Industrial roundwood, coniferous (export/import)"
-"1861","Roundwood","1657","Industrial roundwood, non-coniferous tropical (export/import)"
-"1861","Roundwood","1670","Industrial roundwood, non-coniferous non-tropical (export/import)"
-"1862","Roundwood, coniferous (production)","1601","Sawlogs and veneer logs, coniferous"
-"1862","Roundwood, coniferous (production)","1602","Pulpwood, round and split, coniferous (production)"
-"1862","Roundwood, coniferous (production)","1608","Pulpwood and particles, coniferous (production, 1961-1997)"
-"1862","Roundwood, coniferous (production)","1623","Other industrial roundwood, coniferous (production)"
-"1862","Roundwood, coniferous (production)","1627","Wood fuel, coniferous"
-"1862","Roundwood, coniferous (production)","1651","Industrial roundwood, coniferous (export/import)"
-"1863","Roundwood, non-coniferous (production)","1603","Pulpwood, round and split, non-coniferous (production)"
-"1863","Roundwood, non-coniferous (production)","1604","Sawlogs and veneer logs, non-coniferous"
-"1863","Roundwood, non-coniferous (production)","1611","Pulpwood and particles, non-coniferous (production, 1961-1997)"
-"1863","Roundwood, non-coniferous (production)","1626","Other industrial roundwood, non-coniferous (production)"
-"1863","Roundwood, non-coniferous (production)","1628","Wood fuel, non-coniferous"
-"1863","Roundwood, non-coniferous (production)","1657","Industrial roundwood, non-coniferous tropical (export/import)"
-"1863","Roundwood, non-coniferous (production)","1670","Industrial roundwood, non-coniferous non-tropical (export/import)"
-"1864","Wood fuel","1627","Wood fuel, coniferous"
-"1864","Wood fuel","1628","Wood fuel, non-coniferous"
-"1864","Wood fuel","1629","Wood fuel, all species (export/import)"
-"1865","Industrial roundwood","1601","Sawlogs and veneer logs, coniferous"
-"1865","Industrial roundwood","1602","Pulpwood, round and split, coniferous (production)"
-"1865","Industrial roundwood","1603","Pulpwood, round and split, non-coniferous (production)"
-"1865","Industrial roundwood","1604","Sawlogs and veneer logs, non-coniferous"
-"1865","Industrial roundwood","1608","Pulpwood and particles, coniferous (production, 1961-1997)"
-"1865","Industrial roundwood","1611","Pulpwood and particles, non-coniferous (production, 1961-1997)"
-"1865","Industrial roundwood","1614","Pulpwood, round and split, all species (export/import, 1961-1989)"
-"1865","Industrial roundwood","1623","Other industrial roundwood, coniferous (production)"
-"1865","Industrial roundwood","1625","Other industrial roundwood, all species (export/import, 1961-1989)"
-"1865","Industrial roundwood","1626","Other industrial roundwood, non-coniferous (production)"
-"1865","Industrial roundwood","1651","Industrial roundwood, coniferous (export/import)"
-"1865","Industrial roundwood","1657","Industrial roundwood, non-coniferous tropical (export/import)"
-"1865","Industrial roundwood","1670","Industrial roundwood, non-coniferous non-tropical (export/import)"
-"1866","Industrial roundwood, coniferous","1601","Sawlogs and veneer logs, coniferous"
-"1866","Industrial roundwood, coniferous","1602","Pulpwood, round and split, coniferous (production)"
-"1866","Industrial roundwood, coniferous","1608","Pulpwood and particles, coniferous (production, 1961-1997)"
-"1866","Industrial roundwood, coniferous","1623","Other industrial roundwood, coniferous (production)"
-"1866","Industrial roundwood, coniferous","1651","Industrial roundwood, coniferous (export/import)"
-"1867","Industrial roundwood, non-coniferous","1603","Pulpwood, round and split, non-coniferous (production)"
-"1867","Industrial roundwood, non-coniferous","1604","Sawlogs and veneer logs, non-coniferous"
-"1867","Industrial roundwood, non-coniferous","1611","Pulpwood and particles, non-coniferous (production, 1961-1997)"
-"1867","Industrial roundwood, non-coniferous","1626","Other industrial roundwood, non-coniferous (production)"
-"1867","Industrial roundwood, non-coniferous","1657","Industrial roundwood, non-coniferous tropical (export/import)"
-"1867","Industrial roundwood, non-coniferous","1670","Industrial roundwood, non-coniferous non-tropical (export/import)"
-"1868","Sawlogs and veneer logs","1601","Sawlogs and veneer logs, coniferous"
-"1868","Sawlogs and veneer logs","1604","Sawlogs and veneer logs, non-coniferous"
-"1870","Pulpwood and particles (1961-1997)","1608","Pulpwood and particles, coniferous (production, 1961-1997)"
-"1870","Pulpwood and particles (1961-1997)","1611","Pulpwood and particles, non-coniferous (production, 1961-1997)"
-"1870","Pulpwood and particles (1961-1997)","1614","Pulpwood, round and split, all species (export/import, 1961-1989)"
-"1871","Other industrial roundwood","1623","Other industrial roundwood, coniferous (production)"
-"1871","Other industrial roundwood","1625","Other industrial roundwood, all species (export/import, 1961-1989)"
-"1871","Other industrial roundwood","1626","Other industrial roundwood, non-coniferous (production)"
-"1872","Sawnwood","1632","Sawnwood, coniferous"
-"1872","Sawnwood","1633","Sawnwood, non-coniferous all"
-"1873","Wood-based panels","1606","OSB"
-"1873","Wood-based panels","1640","Plywood"
-"1873","Wood-based panels","1646","Particle board and OSB (1961-1994)"
-"1873","Wood-based panels","1647","Hardboard"
-"1873","Wood-based panels","1648","MDF/HDF"
-"1873","Wood-based panels","1649","Fibreboard, compressed (1961-1994)"
-"1873","Wood-based panels","1650","Other fibreboard"
-"1873","Wood-based panels","1697","Particle board"
-"1874","Fibreboard","1647","Hardboard"
-"1874","Fibreboard","1648","MDF/HDF"
-"1874","Fibreboard","1649","Fibreboard, compressed (1961-1994)"
-"1874","Fibreboard","1650","Other fibreboard"
-"1875","Wood pulp","1654","Mechanical wood pulp"
-"1875","Wood pulp","1655","Semi-chemical wood pulp"
-"1875","Wood pulp","1656","Chemical wood pulp"
-"1875","Wood pulp","1667","Dissolving wood pulp"
-"1876","Paper and paperboard","1671","Newsprint"
-"1876","Paper and paperboard","1674","Printing and writing papers"
-"1876","Paper and paperboard","1675","Other paper and paperboard"
-"1878","Pulp for paper","1654","Mechanical wood pulp"
-"1878","Pulp for paper","1655","Semi-chemical wood pulp"
-"1878","Pulp for paper","1656","Chemical wood pulp"
-"1878","Pulp for paper","1668","Pulp from fibres other than wood"
-"1879","Total fibre furnish","1654","Mechanical wood pulp"
-"1879","Total fibre furnish","1655","Semi-chemical wood pulp"
-"1879","Total fibre furnish","1656","Chemical wood pulp"
-"1879","Total fibre furnish","1668","Pulp from fibres other than wood"
-"1879","Total fibre furnish","1669","Recovered paper"
-"2038","Pulpwood, round and split, all species (production)","1602","Pulpwood, round and split, coniferous (production)"
-"2038","Pulpwood, round and split, all species (production)","1603","Pulpwood, round and split, non-coniferous (production)"
-"2040","Other pulp","1609","Recovered fibre pulp"
-"2040","Other pulp","1668","Pulp from fibres other than wood"
-"2042","Graphic papers","1671","Newsprint"
-"2042","Graphic papers","1674","Printing and writing papers"
-"2043","Packaging paper and paperboard","1617","Case materials"
-"2043","Packaging paper and paperboard","1618","Cartonboard"
-"2043","Packaging paper and paperboard","1621","Wrapping papers"
-"2043","Packaging paper and paperboard","1622","Other papers mainly for packaging"
-"1877","Forest products (export/import)","1601","Sawlogs and veneer logs, coniferous"
-"1877","Forest products (export/import)","1604","Sawlogs and veneer logs, non-coniferous"
-"1877","Forest products (export/import)","1606","OSB"
-"1877","Forest products (export/import)","1608","Pulpwood and particles, coniferous (production, 1961-1997)"
-"1877","Forest products (export/import)","1611","Pulpwood and particles, non-coniferous (production, 1961-1997)"
-"1877","Forest products (export/import)","1614","Pulpwood, round and split, all species (export/import, 1961-1989)"
-"1877","Forest products (export/import)","1619","Wood chips and particles"
-"1877","Forest products (export/import)","1620","Wood residues"
-"1877","Forest products (export/import)","1623","Other industrial roundwood, coniferous (production)"
-"1877","Forest products (export/import)","1625","Other industrial roundwood, all species (export/import, 1961-1989)"
-"1877","Forest products (export/import)","1626","Other industrial roundwood, non-coniferous (production)"
-"1877","Forest products (export/import)","1629","Wood fuel, all species (export/import)"
-"1877","Forest products (export/import)","1630","Wood charcoal"
-"1877","Forest products (export/import)","1632","Sawnwood, coniferous"
-"1877","Forest products (export/import)","1633","Sawnwood, non-coniferous all"
-"1877","Forest products (export/import)","1634","Veneer sheets"
-"1877","Forest products (export/import)","1640","Plywood"
-"1877","Forest products (export/import)","1646","Particle board and OSB (1961-1994)"
-"1877","Forest products (export/import)","1647","Hardboard"
-"1877","Forest products (export/import)","1648","MDF/HDF"
-"1877","Forest products (export/import)","1649","Fibreboard, compressed (1961-1994)"
-"1877","Forest products (export/import)","1650","Other fibreboard"
-"1877","Forest products (export/import)","1651","Industrial roundwood, coniferous (export/import)"
-"1877","Forest products (export/import)","1654","Mechanical wood pulp"
-"1877","Forest products (export/import)","1655","Semi-chemical wood pulp"
-"1877","Forest products (export/import)","1656","Chemical wood pulp"
-"1877","Forest products (export/import)","1657","Industrial roundwood, non-coniferous tropical (export/import)"
-"1877","Forest products (export/import)","1667","Dissolving wood pulp"
-"1877","Forest products (export/import)","1668","Pulp from fibres other than wood"
-"1877","Forest products (export/import)","1669","Recovered paper"
-"1877","Forest products (export/import)","1670","Industrial roundwood, non-coniferous non-tropical (export/import)"
-"1877","Forest products (export/import)","1671","Newsprint"
-"1877","Forest products (export/import)","1674","Printing and writing papers"
-"1877","Forest products (export/import)","1675","Other paper and paperboard"
-"1877","Forest products (export/import)","1693","Wood pellets"
-"1877","Forest products (export/import)","1694","Other agglomerates"
-"1877","Forest products (export/import)","1697","Particle board"
-"5221","Secondary wood products","1643","Further processed sawnwood, coniferous"
-"5221","Secondary wood products","1644","Further processed sawnwood, non-coniferous all"
-"5221","Secondary wood products","1645","Further processed sawnwood, non-coniferous tropical"
-"5221","Secondary wood products","1652","Wooden wrapping and packaging material"
-"5221","Secondary wood products","1653","Builder's joinery and carpentry of wood"
-"5221","Secondary wood products","1658","Wooden furniture"
-"5221","Secondary wood products","1659","Prefabricated buildings"
-"5221","Secondary wood products","1664","Prefabricated buildings of wood"
-"5229","Secondary paper products","1665","Composite paper and paperboard"
-"5229","Secondary paper products","1666","Special coated paper and pulp products"
-"5229","Secondary paper products","1672","Carbon paper and copying paper, ready for use"
-"5229","Secondary paper products","1673","Household and sanitary paper, ready for use"
-"5229","Secondary paper products","1677","Packaging cartons, boxes etc."
-"5229","Secondary paper products","1679","Printing and writing paper, ready for use"
-"5229","Secondary paper products","1680","Articles, moulded or pressed from pulp"
-"5229","Secondary paper products","1682","Filter paper and paperboard, ready for use"
-"5229","Secondary paper products","1685","Mechanical and semi-chemical wood pulp"
-"5229","Secondary paper products","1686","Chemical wood pulp, sulphite"
-"5229","Secondary paper products","1690","Veneer sheets all"
+CommodityGroup,CommodityGroupName,CommodityCode,CommodityName
+1656,Chemical wood pulp,1660,"Chemical wood pulp, sulphite, unbleached"
+1656,Chemical wood pulp,1661,"Chemical wood pulp, sulphite, bleached"
+1656,Chemical wood pulp,1662,"Chemical wood pulp, sulphate, unbleached"
+1656,Chemical wood pulp,1663,"Chemical wood pulp, sulphate, bleached"
+1656,Chemical wood pulp,1686,"Chemical wood pulp, sulphite"
+1674,Printing and writing papers,1612,"Printing and writing papers, uncoated, wood containing"
+1674,Printing and writing papers,1615,"Printing and writing papers, uncoated, wood free"
+1674,Printing and writing papers,1616,"Printing and writing papers, coated"
+1675,Other paper and paperboard,1676,Household and sanitary papers
+1675,Other paper and paperboard,1681,Wrapping and packaging paper and paperboard
+1675,Other paper and paperboard,1683,Other paper and paperboard n.e.s.
+1675,Other paper and paperboard,1617,Case materials
+1675,Other paper and paperboard,1618,Cartonboard
+1675,Other paper and paperboard,1621,Wrapping papers
+1675,Other paper and paperboard,1622,Other papers mainly for packaging
+1695,"Wood chips, particles and residues",1619,Wood chips and particles
+1695,"Wood chips, particles and residues",1620,Wood residues
+1696,Wood pellets and other agglomerates,1693,Wood pellets
+1696,Wood pellets and other agglomerates,1694,Other agglomerates
+1859,"Wood pulp, excluding mechanical wood pulp",1655,Semi-chemical wood pulp
+1859,"Wood pulp, excluding mechanical wood pulp",1656,Chemical wood pulp
+1859,"Wood pulp, excluding mechanical wood pulp",1667,Dissolving wood pulp
+1860,"Paper and paperboard, excluding newsprint",1674,Printing and writing papers
+1860,"Paper and paperboard, excluding newsprint",1675,Other paper and paperboard
+1861,Roundwood,1601,"Sawlogs and veneer logs, coniferous"
+1861,Roundwood,1602,"Pulpwood, round and split, coniferous (production)"
+1861,Roundwood,1603,"Pulpwood, round and split, non-coniferous (production)"
+1861,Roundwood,1604,"Sawlogs and veneer logs, non-coniferous"
+1861,Roundwood,1608,"Pulpwood and particles, coniferous (production, 1961-1997)"
+1861,Roundwood,1611,"Pulpwood and particles, non-coniferous (production, 1961-1997)"
+1861,Roundwood,1614,"Pulpwood, round and split, all species (export/import, 1961-1989)"
+1861,Roundwood,1623,"Other industrial roundwood, coniferous (production)"
+1861,Roundwood,1625,"Other industrial roundwood, all species (export/import, 1961-1989)"
+1861,Roundwood,1626,"Other industrial roundwood, non-coniferous (production)"
+1861,Roundwood,1627,"Wood fuel, coniferous"
+1861,Roundwood,1628,"Wood fuel, non-coniferous"
+1861,Roundwood,1629,"Wood fuel, all species (export/import)"
+1861,Roundwood,1651,"Industrial roundwood, coniferous (export/import)"
+1861,Roundwood,1657,"Industrial roundwood, non-coniferous tropical (export/import)"
+1861,Roundwood,1670,"Industrial roundwood, non-coniferous non-tropical (export/import)"
+1862,"Roundwood, coniferous (production)",1601,"Sawlogs and veneer logs, coniferous"
+1862,"Roundwood, coniferous (production)",1602,"Pulpwood, round and split, coniferous (production)"
+1862,"Roundwood, coniferous (production)",1608,"Pulpwood and particles, coniferous (production, 1961-1997)"
+1862,"Roundwood, coniferous (production)",1623,"Other industrial roundwood, coniferous (production)"
+1862,"Roundwood, coniferous (production)",1627,"Wood fuel, coniferous"
+1862,"Roundwood, coniferous (production)",1651,"Industrial roundwood, coniferous (export/import)"
+1863,"Roundwood, non-coniferous (production)",1603,"Pulpwood, round and split, non-coniferous (production)"
+1863,"Roundwood, non-coniferous (production)",1604,"Sawlogs and veneer logs, non-coniferous"
+1863,"Roundwood, non-coniferous (production)",1611,"Pulpwood and particles, non-coniferous (production, 1961-1997)"
+1863,"Roundwood, non-coniferous (production)",1626,"Other industrial roundwood, non-coniferous (production)"
+1863,"Roundwood, non-coniferous (production)",1628,"Wood fuel, non-coniferous"
+1863,"Roundwood, non-coniferous (production)",1657,"Industrial roundwood, non-coniferous tropical (export/import)"
+1863,"Roundwood, non-coniferous (production)",1670,"Industrial roundwood, non-coniferous non-tropical (export/import)"
+1864,Wood fuel,1627,"Wood fuel, coniferous"
+1864,Wood fuel,1628,"Wood fuel, non-coniferous"
+1864,Wood fuel,1629,"Wood fuel, all species (export/import)"
+1865,Industrial roundwood,1601,"Sawlogs and veneer logs, coniferous"
+1865,Industrial roundwood,1602,"Pulpwood, round and split, coniferous (production)"
+1865,Industrial roundwood,1603,"Pulpwood, round and split, non-coniferous (production)"
+1865,Industrial roundwood,1604,"Sawlogs and veneer logs, non-coniferous"
+1865,Industrial roundwood,1608,"Pulpwood and particles, coniferous (production, 1961-1997)"
+1865,Industrial roundwood,1611,"Pulpwood and particles, non-coniferous (production, 1961-1997)"
+1865,Industrial roundwood,1614,"Pulpwood, round and split, all species (export/import, 1961-1989)"
+1865,Industrial roundwood,1623,"Other industrial roundwood, coniferous (production)"
+1865,Industrial roundwood,1625,"Other industrial roundwood, all species (export/import, 1961-1989)"
+1865,Industrial roundwood,1626,"Other industrial roundwood, non-coniferous (production)"
+1865,Industrial roundwood,1651,"Industrial roundwood, coniferous (export/import)"
+1865,Industrial roundwood,1657,"Industrial roundwood, non-coniferous tropical (export/import)"
+1865,Industrial roundwood,1670,"Industrial roundwood, non-coniferous non-tropical (export/import)"
+1866,"Industrial roundwood, coniferous",1601,"Sawlogs and veneer logs, coniferous"
+1866,"Industrial roundwood, coniferous",1602,"Pulpwood, round and split, coniferous (production)"
+1866,"Industrial roundwood, coniferous",1608,"Pulpwood and particles, coniferous (production, 1961-1997)"
+1866,"Industrial roundwood, coniferous",1623,"Other industrial roundwood, coniferous (production)"
+1866,"Industrial roundwood, coniferous",1651,"Industrial roundwood, coniferous (export/import)"
+1867,"Industrial roundwood, non-coniferous",1603,"Pulpwood, round and split, non-coniferous (production)"
+1867,"Industrial roundwood, non-coniferous",1604,"Sawlogs and veneer logs, non-coniferous"
+1867,"Industrial roundwood, non-coniferous",1611,"Pulpwood and particles, non-coniferous (production, 1961-1997)"
+1867,"Industrial roundwood, non-coniferous",1626,"Other industrial roundwood, non-coniferous (production)"
+1867,"Industrial roundwood, non-coniferous",1657,"Industrial roundwood, non-coniferous tropical (export/import)"
+1867,"Industrial roundwood, non-coniferous",1670,"Industrial roundwood, non-coniferous non-tropical (export/import)"
+1868,Sawlogs and veneer logs,1601,"Sawlogs and veneer logs, coniferous"
+1868,Sawlogs and veneer logs,1604,"Sawlogs and veneer logs, non-coniferous"
+1870,Pulpwood and particles (1961-1997),1608,"Pulpwood and particles, coniferous (production, 1961-1997)"
+1870,Pulpwood and particles (1961-1997),1611,"Pulpwood and particles, non-coniferous (production, 1961-1997)"
+1870,Pulpwood and particles (1961-1997),1614,"Pulpwood, round and split, all species (export/import, 1961-1989)"
+1871,Other industrial roundwood,1623,"Other industrial roundwood, coniferous (production)"
+1871,Other industrial roundwood,1625,"Other industrial roundwood, all species (export/import, 1961-1989)"
+1871,Other industrial roundwood,1626,"Other industrial roundwood, non-coniferous (production)"
+1872,Sawnwood,1632,"Sawnwood, coniferous"
+1872,Sawnwood,1633,"Sawnwood, non-coniferous all"
+1873,Wood-based panels,1606,OSB
+1873,Wood-based panels,1640,Plywood
+1873,Wood-based panels,1646,Particle board and OSB (1961-1994)
+1873,Wood-based panels,1647,Hardboard
+1873,Wood-based panels,1648,MDF/HDF
+1873,Wood-based panels,1649,"Fibreboard, compressed (1961-1994)"
+1873,Wood-based panels,1650,Other fibreboard
+1873,Wood-based panels,1697,Particle board
+1874,Fibreboard,1647,Hardboard
+1874,Fibreboard,1648,MDF/HDF
+1874,Fibreboard,1649,"Fibreboard, compressed (1961-1994)"
+1874,Fibreboard,1650,Other fibreboard
+1875,Wood pulp,1654,Mechanical wood pulp
+1875,Wood pulp,1655,Semi-chemical wood pulp
+1875,Wood pulp,1656,Chemical wood pulp
+1875,Wood pulp,1667,Dissolving wood pulp
+1876,Paper and paperboard,1671,Newsprint
+1876,Paper and paperboard,1674,Printing and writing papers
+1876,Paper and paperboard,1675,Other paper and paperboard
+1878,Pulp for paper,1654,Mechanical wood pulp
+1878,Pulp for paper,1655,Semi-chemical wood pulp
+1878,Pulp for paper,1656,Chemical wood pulp
+1878,Pulp for paper,1668,Pulp from fibres other than wood
+1879,Total fibre furnish,1654,Mechanical wood pulp
+1879,Total fibre furnish,1655,Semi-chemical wood pulp
+1879,Total fibre furnish,1656,Chemical wood pulp
+1879,Total fibre furnish,1668,Pulp from fibres other than wood
+1879,Total fibre furnish,1669,Recovered paper
+2038,"Pulpwood, round and split, all species (production)",1602,"Pulpwood, round and split, coniferous (production)"
+2038,"Pulpwood, round and split, all species (production)",1603,"Pulpwood, round and split, non-coniferous (production)"
+2040,Other pulp,1609,Recovered fibre pulp
+2040,Other pulp,1668,Pulp from fibres other than wood
+2042,Graphic papers,1671,Newsprint
+2042,Graphic papers,1674,Printing and writing papers
+2043,Packaging paper and paperboard,1617,Case materials
+2043,Packaging paper and paperboard,1618,Cartonboard
+2043,Packaging paper and paperboard,1621,Wrapping papers
+2043,Packaging paper and paperboard,1622,Other papers mainly for packaging
+1877,Forest products (export/import),1601,"Sawlogs and veneer logs, coniferous"
+1877,Forest products (export/import),1604,"Sawlogs and veneer logs, non-coniferous"
+1877,Forest products (export/import),1606,OSB
+1877,Forest products (export/import),1608,"Pulpwood and particles, coniferous (production, 1961-1997)"
+1877,Forest products (export/import),1611,"Pulpwood and particles, non-coniferous (production, 1961-1997)"
+1877,Forest products (export/import),1614,"Pulpwood, round and split, all species (export/import, 1961-1989)"
+1877,Forest products (export/import),1619,Wood chips and particles
+1877,Forest products (export/import),1620,Wood residues
+1877,Forest products (export/import),1623,"Other industrial roundwood, coniferous (production)"
+1877,Forest products (export/import),1625,"Other industrial roundwood, all species (export/import, 1961-1989)"
+1877,Forest products (export/import),1626,"Other industrial roundwood, non-coniferous (production)"
+1877,Forest products (export/import),1629,"Wood fuel, all species (export/import)"
+1877,Forest products (export/import),1630,Wood charcoal
+1877,Forest products (export/import),1632,"Sawnwood, coniferous"
+1877,Forest products (export/import),1633,"Sawnwood, non-coniferous all"
+1877,Forest products (export/import),1634,Veneer sheets
+1877,Forest products (export/import),1640,Plywood
+1877,Forest products (export/import),1646,Particle board and OSB (1961-1994)
+1877,Forest products (export/import),1647,Hardboard
+1877,Forest products (export/import),1648,MDF/HDF
+1877,Forest products (export/import),1649,"Fibreboard, compressed (1961-1994)"
+1877,Forest products (export/import),1650,Other fibreboard
+1877,Forest products (export/import),1651,"Industrial roundwood, coniferous (export/import)"
+1877,Forest products (export/import),1654,Mechanical wood pulp
+1877,Forest products (export/import),1655,Semi-chemical wood pulp
+1877,Forest products (export/import),1656,Chemical wood pulp
+1877,Forest products (export/import),1657,"Industrial roundwood, non-coniferous tropical (export/import)"
+1877,Forest products (export/import),1667,Dissolving wood pulp
+1877,Forest products (export/import),1668,Pulp from fibres other than wood
+1877,Forest products (export/import),1669,Recovered paper
+1877,Forest products (export/import),1670,"Industrial roundwood, non-coniferous non-tropical (export/import)"
+1877,Forest products (export/import),1671,Newsprint
+1877,Forest products (export/import),1674,Printing and writing papers
+1877,Forest products (export/import),1675,Other paper and paperboard
+1877,Forest products (export/import),1693,Wood pellets
+1877,Forest products (export/import),1694,Other agglomerates
+1877,Forest products (export/import),1697,Particle board
+5221,Secondary wood products,1643,"Further processed sawnwood, coniferous"
+5221,Secondary wood products,1644,"Further processed sawnwood, non-coniferous all"
+5221,Secondary wood products,1645,"Further processed sawnwood, non-coniferous tropical"
+5221,Secondary wood products,1652,Wooden wrapping and packaging material
+5221,Secondary wood products,1653,Builder's joinery and carpentry of wood
+5221,Secondary wood products,1658,Wooden furniture
+5221,Secondary wood products,1659,Prefabricated buildings
+5221,Secondary wood products,1664,Prefabricated buildings of wood
+5229,Secondary paper products,1665,Composite paper and paperboard
+5229,Secondary paper products,1666,Special coated paper and pulp products
+5229,Secondary paper products,1672,"Carbon paper and copying paper, ready for use"
+5229,Secondary paper products,1673,"Household and sanitary paper, ready for use"
+5229,Secondary paper products,1677,"Packaging cartons, boxes etc."
+5229,Secondary paper products,1679,"Printing and writing paper, ready for use"
+5229,Secondary paper products,1680,"Articles, moulded or pressed from pulp"
+5229,Secondary paper products,1682,"Filter paper and paperboard, ready for use"
+5229,Secondary paper products,1685,Mechanical and semi-chemical wood pulp
+5229,Secondary paper products,1686,"Chemical wood pulp, sulphite"
+5229,Secondary paper products,1690,Veneer sheets all

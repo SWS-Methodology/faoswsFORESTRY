@@ -2,7 +2,7 @@
 
 <!--The module **faoswsForestryAggregation** is essentially a validation tool which is used by the the technical unit to check the effects of data changes in the forestry_prod_trade data set on geographical and commodity aggregations.-->
 
-The module **faoswsForestryAggregation** comprehend the main step in the *Forestry Production and Trade* process as it calculates the agrgegates by region and item that will be disseminated through **Faostat**.
+The module **faoswsForestryAggregation** comprehend the main step in the *Forestry Production and Trade* process as it calculates the aggregates by region and item that will be disseminated through **FAOSTAT**.
 
 ```{r  faoswsForestryAggregationWorkflow, echo=FALSE, out.width="85%", fig.align="center", fig.show='hold', fig.cap='Workflow of the faoswsForestryAggregation module'}
 knitr::include_graphics("images/faoswsForestryAggregation.png")

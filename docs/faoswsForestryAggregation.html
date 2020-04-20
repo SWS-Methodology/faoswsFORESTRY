@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2020-04-15" />
+<meta name="date" content="2020-04-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -166,7 +166,7 @@
 <div id="faoswsForestryAggregation" class="section level1">
 <h1><span class="header-section-number">Chapter 5</span> <strong>The faoswsForestryAggregation module</strong></h1>
 <!--The module **faoswsForestryAggregation** is essentially a validation tool which is used by the the technical unit to check the effects of data changes in the forestry_prod_trade data set on geographical and commodity aggregations.-->
-<p>The module <strong>faoswsForestryAggregation</strong> comprehend the main step in the <em>Forestry Production and Trade</em> process as it calculates the agrgegates by region and item that will be disseminated through <strong>Faostat</strong>.</p>
+<p>The module <strong>faoswsForestryAggregation</strong> comprehend the main step in the <em>Forestry Production and Trade</em> process as it calculates the aggregates by region and item that will be disseminated through <strong>FAOSTAT</strong>.</p>
 <div class="figure" style="text-align: center"><span id="fig:faoswsForestryAggregationWorkflow"></span>
 <img src="images/faoswsForestryAggregation.png" alt="Workflow of the faoswsForestryAggregation module" width="85%" />
 <p class="caption">
@@ -194,13 +194,13 @@ Since there is an interplay between commodity groups, the module carries the agg
 </caption>
 <thead>
 <tr>
-<th style="text-align:left;background-color: #a9c9a7 !important;">
+<th style="text-align:right;background-color: #a9c9a7 !important;">
 CommodityGroup
 </th>
 <th style="text-align:left;background-color: #a9c9a7 !important;">
 CommodityGroupName
 </th>
-<th style="text-align:left;background-color: #a9c9a7 !important;">
+<th style="text-align:right;background-color: #a9c9a7 !important;">
 CommodityCode
 </th>
 <th style="text-align:left;background-color: #a9c9a7 !important;">
@@ -210,13 +210,13 @@ CommodityName
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1656
 </td>
 <td style="text-align:left;">
 Chemical wood pulp
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1660
 </td>
 <td style="text-align:left;">
@@ -224,13 +224,13 @@ Chemical wood pulp, sulphite, unbleached
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1656
 </td>
 <td style="text-align:left;">
 Chemical wood pulp
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1661
 </td>
 <td style="text-align:left;">
@@ -238,13 +238,13 @@ Chemical wood pulp, sulphite, bleached
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1656
 </td>
 <td style="text-align:left;">
 Chemical wood pulp
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1662
 </td>
 <td style="text-align:left;">
@@ -252,13 +252,13 @@ Chemical wood pulp, sulphate, unbleached
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1656
 </td>
 <td style="text-align:left;">
 Chemical wood pulp
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1663
 </td>
 <td style="text-align:left;">
@@ -266,13 +266,27 @@ Chemical wood pulp, sulphate, bleached
 </td>
 </tr>
 <tr>
+<td style="text-align:right;">
+1656
+</td>
 <td style="text-align:left;">
+Chemical wood pulp
+</td>
+<td style="text-align:right;">
+1686
+</td>
+<td style="text-align:left;">
+Chemical wood pulp, sulphite
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
 1674
 </td>
 <td style="text-align:left;">
 Printing and writing papers
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1612
 </td>
 <td style="text-align:left;">
@@ -280,13 +294,13 @@ Printing and writing papers, uncoated, wood containing
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1674
 </td>
 <td style="text-align:left;">
 Printing and writing papers
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1615
 </td>
 <td style="text-align:left;">
@@ -294,13 +308,13 @@ Printing and writing papers, uncoated, wood free
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1674
 </td>
 <td style="text-align:left;">
 Printing and writing papers
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1616
 </td>
 <td style="text-align:left;">
@@ -308,13 +322,13 @@ Printing and writing papers, coated
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1675
 </td>
 <td style="text-align:left;">
 Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1676
 </td>
 <td style="text-align:left;">
@@ -322,13 +336,13 @@ Household and sanitary papers
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1675
 </td>
 <td style="text-align:left;">
 Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1681
 </td>
 <td style="text-align:left;">
@@ -336,13 +350,13 @@ Wrapping and packaging paper and paperboard
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1675
 </td>
 <td style="text-align:left;">
 Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1683
 </td>
 <td style="text-align:left;">
@@ -350,13 +364,13 @@ Other paper and paperboard n.e.s.
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-1681
+<td style="text-align:right;">
+1675
 </td>
 <td style="text-align:left;">
-Wrapping and packaging paper and paperboard
+Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1617
 </td>
 <td style="text-align:left;">
@@ -364,13 +378,13 @@ Case materials
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-1681
+<td style="text-align:right;">
+1675
 </td>
 <td style="text-align:left;">
-Wrapping and packaging paper and paperboard
+Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1618
 </td>
 <td style="text-align:left;">
@@ -378,13 +392,13 @@ Cartonboard
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-1681
+<td style="text-align:right;">
+1675
 </td>
 <td style="text-align:left;">
-Wrapping and packaging paper and paperboard
+Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1621
 </td>
 <td style="text-align:left;">
@@ -392,13 +406,13 @@ Wrapping papers
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-1681
+<td style="text-align:right;">
+1675
 </td>
 <td style="text-align:left;">
-Wrapping and packaging paper and paperboard
+Other paper and paperboard
 </td>
-<td style="text-align:left;">
+<td style="text-align:right;">
 1622
 </td>
 <td style="text-align:left;">

@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2020-04-15" />
+<meta name="date" content="2020-04-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -165,7 +165,7 @@
             <section class="normal" id="section-">
 <div id="sws-resources" class="section level1">
 <h1><span class="header-section-number">A</span> SWS resources</h1>
-<p>SWS resources are R modules, datatables, data sets, and code lists comprising a migration framework. Datatables are typically used as auxiliary data to help R modules to achieve their goals. The statistical domains in SWS, through code/reference lists, define the dimensions of the datasets. Therefore, datasets are primarily used to store code list - referenced values as either input and output in the SWS.</p>
+<p>SWS resources are R modules, data tables, data sets, and code lists comprising a migration framework. Data tables are typically used as auxiliary data to help R modules to achieve their goals. The statistical domains in SWS, through code/reference lists, define the dimensions of the datasets. Therefore, datasets are primarily used to store code list - referenced values as either input and output in the SWS.</p>
 <div id="code-lists" class="section level2">
 <h2><span class="header-section-number">A.1</span> Code lists</h2>
 <p>Code lists, also called reference lists in SWS parlance, are the dimensions making up the data sets that are designed by the user to store analytical results from SWS modules. The dimensions are statistical-domain-specific and are defined by the technical unit to reflect its needs regarding data collection, processing, and dissemination while meeting FAO standards. Each data set dimension has a set of codes and their associated descriptions. Thus, code lists serve to the purpose of standardization, visualization, and metadata by associating standardized codes to standardized names in the SWS data set outputs. A typical SWS compliant data set has, therefore, the following dimensions/reference lists:</p>
@@ -1849,7 +1849,7 @@ Chemical Wood Pulp
 <ul>
 <li><p><strong>Elements</strong>. Often representing a measurement that can be taken across different items. For example, area, production, share. In SWS, the element dimension/code list used by Forestry Production and Trade is <strong>measuredElement</strong>.</p></li>
 <li><p><strong>Time</strong> (the time unit the data is displayed for: year, months, etc). In SWS, the time dimension used by Forestry Production and Trade data sets is named <strong>timePointYears</strong>.</p></li>
-<li><p><strong>Flag</strong> (A standardized label indicating origin and/or nature of a number in the data set, e.g. <blank> (Official number)). In SWS, the flag dimension used by AQUASTAT data sets is named <strong>flagObservationStatus</strong>. Please check the <a href="http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/">OCS statistical standards</a> and the <a href="http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS_Observation_Status_Codes__Flags__endorsed__December_2016_.pdf">flags document</a> to understand the flagObservationStatus rational and obtain the description of flags.
+<li><p><strong>Flag</strong> (A standardized label indicating origin and/or nature of a number in the data set, e.g. <blank> (Official number)). In SWS, the flag dimension used by Forestry Production and Trade data sets is named <strong>flagObservationStatus</strong>. Please check the <a href="http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/">OCS statistical standards</a> and the <a href="http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS_Observation_Status_Codes__Flags__endorsed__December_2016_.pdf">flags document</a> to understand the flagObservationStatus rational and obtain the description of flags.
 <br></p></li>
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
@@ -2027,7 +2027,7 @@ Observations, both official and non-official, reported by governmental internati
 </tbody>
 </table>
 <p><br>
-- <strong>Method</strong> (A standardized label indicating method utilized to obtain a number in the data set. In SWS, the method dimension used by AQUASTAT data sets is named <strong>flagMethod</strong>. Please check the <a href="http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/">OCS statistical standards</a> and the <a href="http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS_Observation_Status_Codes__Flags__endorsed__December_2016_.pdf">flags document</a> to understand the flagMethod rational and obtain the description of flags.</p>
+- <strong>Method</strong> (A standardized label indicating method utilized to obtain a number in the data set. In SWS, the method dimension used by Forestry Production and Trade data sets is named <strong>flagMethod</strong>. Please check the <a href="http://intranet.fao.org/statistics_coordination_portal/standards_for_quality_compliance/">OCS statistical standards</a> and the <a href="http://intranet.fao.org/fileadmin/user_upload/scp/Standards_for_quality_compliance/SSS_Observation_Status_Codes__Flags__endorsed__December_2016_.pdf">flags document</a> to understand the flagMethod rational and obtain the description of flags.</p>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:tabFlagMethod">Table A.3: </span>Method flags
@@ -2154,7 +2154,7 @@ Value not known
 <p>The Forestry flags were mapped out into the SWS flag system as below:</p>
 <table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:flagMappedOut">Table A.4: </span>FAOSTAT-SWS mapping for observations and methods in Forestry.
+<span id="tab:flagMappedOut">Table A.4: </span>FAOSTAT-SWS mapping for observations and methods in Forestry Production and Trade.
 </caption>
 <thead>
 <tr>
@@ -2189,7 +2189,7 @@ W
 X
 </td>
 <td style="text-align:left;">
-p
+dash
 </td>
 </tr>
 <tr>
@@ -2197,10 +2197,10 @@ p
 X
 </td>
 <td style="text-align:left;">
-T
+X
 </td>
 <td style="text-align:left;">
-p
+dash
 </td>
 </tr>
 <tr>
@@ -2219,7 +2219,7 @@ q
 Fp
 </td>
 <td style="text-align:left;">
-F
+E
 </td>
 <td style="text-align:left;">
 t
@@ -2247,61 +2247,6 @@ E
 t
 </td>
 </tr>
-<tr>
-<td style="text-align:left;">
-Fb
-</td>
-<td style="text-align:left;">
-E
-</td>
-<td style="text-align:left;">
-dash
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-q
-</td>
-<td style="text-align:left;">
-blank
-</td>
-<td style="text-align:left;">
-q
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-f
-</td>
-<td style="text-align:left;">
-E
-</td>
-<td style="text-align:left;">
-f
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-x
-</td>
-<td style="text-align:left;">
-T
-</td>
-<td style="text-align:left;">
-p
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-w
-</td>
-<td style="text-align:left;">
-X
-</td>
-<td style="text-align:left;">
-p
-</td>
-</tr>
 </tbody>
 </table>
 <div class="figure" style="text-align: center"><span id="fig:fig4"></span>
@@ -2314,9 +2259,9 @@ Figure A.1: Typical dimensions (SWS code/reference lists) composing a Forestry P
 </div>
 <div id="datatables" class="section level2">
 <h2><span class="header-section-number">A.2</span> Datatables</h2>
-<p>Datatables are mainly used to store information helping R modules to output analytical results. Information in datatables can be of a number of types. For example, conversion factors, arithmetic formulas, mapping between flags, mapping between international classifications, etc. In SWS hierarchy. all datatables reside in a given statistical domain.
-Variable names (aka column names) in SWS datatables are more flexible in terms of the names they can take than SWS datasets. One can find SWS datatables naming variables as element_code, element_code_sws, element_code_faostat, etc. Likewise, columns describing countries across different datatable may have different classification systems. This flexibility in datatables is beneficial as it allows to accommodate different auxiliary information.
-In the AQUASTAT - SWS migration framework, the data tables are in the <strong>Aquastat domain</strong>. Below is a list of current available and filled data tables in the Aquastat domain.</p>
+<p>Datatables are mainly used to store information helping R modules to output analytical results. Information in datatables can be of a number of types. For example, conversion factors, arithmetic formulas, mapping between flags, mapping between international classifications, etc. In SWS hierarchy, all data tables reside in a given statistical domain.
+Variable names (aka column names) in SWS Datatables are more flexible in terms of the names they can take than SWS datasets. One can find SWS Datatables naming variables as element_code, element_code_sws, element_code_faostat, etc. Likewise, columns describing countries across different data tables may have different classification systems. This flexibility in Datatables is beneficial as it allows to accommodate different auxiliary information.
+In the Forestry Production and Trade framework, the data tables are in the <strong>Forestry domain</strong>. Below is a list of current available and filled data tables in the Forestry domain.</p>
 </div>
 <div id="forestry-product-aggregation-elements" class="section level2 unnumbered">
 <h2>Forestry Product Aggregation Elements</h2>
@@ -2327,7 +2272,7 @@ In the AQUASTAT - SWS migration framework, the data tables are in the <strong>Aq
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:forestryproductaggregationelements">Table A.5: </span>Columns description of the datatable: Forestry Product Aggregation Elements
+<span id="tab:forestryproductaggregationelements">Table A.5: </span>Columns description of the data table: Forestry Product Aggregation Elements
 </caption>
 <thead>
 <tr>
@@ -2388,11 +2333,11 @@ Last year of the aggregate
 <ul>
 <li><strong>Datatable:</strong> <code>Forestry Product Aggregation Tree</code></li>
 <li><strong>Domain:</strong> Forestry</li>
-<li><strong>Usage:</strong> A datatable with group commodity and their primary commodities</li>
+<li><strong>Usage:</strong> A data table with group commodity and their primary commodities</li>
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:forestryproductaggregationtree">Table A.6: </span>Columns description of the datatable: Forestry Product Aggregation Tree
+<span id="tab:forestryproductaggregationtree">Table A.6: </span>Columns description of the data table: Forestry Product Aggregation Tree
 </caption>
 <thead>
 <tr>
@@ -2447,7 +2392,7 @@ Aggr.Pass
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:forestryaggregatecomposition">Table A.7: </span>Columns description of the datatable: forestry_aggregate_composition
+<span id="tab:forestryaggregatecomposition">Table A.7: </span>Columns description of the data table: forestry_aggregate_composition
 </caption>
 <thead>
 <tr>
@@ -2504,7 +2449,7 @@ First items to be aggregated
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:forestrycountrypartners">Table A.8: </span>Columns description of the datatable: forestry_country_partners
+<span id="tab:forestrycountrypartners">Table A.8: </span>Columns description of the data table: forestry_country_partners
 </caption>
 <thead>
 <tr>
@@ -2541,11 +2486,11 @@ Name of the Forestry partner
 <ul>
 <li><strong>Datatable:</strong> <code>forestry_domain_elements</code></li>
 <li><strong>Domain:</strong> Forestry</li>
-<li><strong>Usage:</strong> An SWS datatable storing relevant Forestry elements and used to filter input dataset.</li>
+<li><strong>Usage:</strong> An SWS data table storing relevant Forestry elements and used to filter input dataset.</li>
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:forestrydomainelements">Table A.9: </span>Columns description of the datatable: forestry_domain_elements
+<span id="tab:forestrydomainelements">Table A.9: </span>Columns description of the data table: forestry_domain_elements
 </caption>
 <thead>
 <tr>
@@ -2602,7 +2547,7 @@ Unit of element
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:fsm49regions">Table A.10: </span>Columns description of the datatable: fs_m49_regions
+<span id="tab:fsm49regions">Table A.10: </span>Columns description of the data table: fs_m49_regions
 </caption>
 <thead>
 <tr>
@@ -2647,11 +2592,11 @@ Area group name
 <ul>
 <li><strong>Datatable:</strong> <code>m49_fs_iso_mapping</code></li>
 <li><strong>Domain:</strong> Common Domain</li>
-<li><strong>Usage:</strong> An SWS dataset datatable storing the mapping between FAOSTAT and UNSD M49 codes used to carry geographic aggregations.</li>
+<li><strong>Usage:</strong> An SWS dataset data table storing the mapping between FAOSTAT and UNSD M49 codes used to carry geographic aggregations.</li>
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:m49fsisomapping">Table A.11: </span>Columns description of the datatable: m49_fs_iso_mapping
+<span id="tab:m49fsisomapping">Table A.11: </span>Columns description of the data table: m49_fs_iso_mapping
 </caption>
 <thead>
 <tr>
@@ -2732,7 +2677,7 @@ ISO three-letetr country code
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:Tradeoutliertresholds">Table A.12: </span>Columns description of the datatable: Trade outlier tresholds
+<span id="tab:Tradeoutliertresholds">Table A.12: </span>Columns description of the data table: Trade outlier tresholds
 </caption>
 <thead>
 <tr>
@@ -2785,11 +2730,11 @@ Upper price
 <ul>
 <li><strong>Datatable:</strong> <code>UNECE/ITTO Input Data</code></li>
 <li><strong>Domain:</strong> Forestry</li>
-<li><strong>Usage:</strong> This datatable is an input for the <strong>forestry_prod_trade</strong> dataset. It contains the partner’s data and it is used in the module Forestry_UNECE_ITTO_Input_Data. For more details check chapter <a href="ForestryUNECEITTOInputData.html#ForestryUNECEITTOInputData">2</a>.</li>
+<li><strong>Usage:</strong> This data table is an input for the <strong>forestry_prod_trade</strong> dataset. It contains the partner’s data and it is used in the module Forestry_UNECE_ITTO_Input_Data. For more details check chapter <a href="ForestryUNECEITTOInputData.html#ForestryUNECEITTOInputData">2</a>.</li>
 </ul>
 <table class="table table" style="font-size: 14px; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
-<span id="tab:uneceittoinputdata">Table A.13: </span>Columns description of the datatable: UNECE/ITTO Input Data
+<span id="tab:uneceittoinputdata">Table A.13: </span>Columns description of the data table: UNECE/ITTO Input Data
 </caption>
 <thead>
 <tr>
