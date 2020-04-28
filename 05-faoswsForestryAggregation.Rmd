@@ -23,7 +23,7 @@ After reading in the input dataset, the module geographically aggregates the pri
 
 ### **Get Forestry commodity aggregation**
 Once a data set with regional aggregate is ready, the module moves to producing commodity aggregations at the national and regional levels. <!--Before the aggregations, the modules filters out all commodity groups and analytical elements (Export and Import unit values) so that they can be recalculated. -->
-Since there is an interplay between commodity groups, the module carries the aggregation in tandem, with four commodity groups being aggregated first and then rest of aggregates. 
+Since there is an interplay between commodity groups, the module carries the aggregation in tandem, with three commodity groups being aggregated first and then rest of aggregates. 
 
 ```{r tab1, echo=FALSE, message=FALSE}
 suppressWarnings({
